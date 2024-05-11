@@ -85,6 +85,17 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 3
 }
+create_corps_commander = {
+    name = " Baytugan Barasbi   "
+        picture = "baytugan_barasbi.dds"
+    traits = { war_hero }
+    skill = 2
+
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
+}
 create_field_marshal = {
 	name = "Mussa Kunduhov"
 		picture = "Mussa_Kunduhov.dds"
