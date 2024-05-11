@@ -200,21 +200,14 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					233 = {
+					981 = {
 							add_building_construction = {
 									type = anti_air_building
 									level = 1
 									instant_build = yes
 								}
 						}
-					234 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					235 = {
+					982 = {
 							add_building_construction = {
 									type = anti_air_building
 									level = 1
