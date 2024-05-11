@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_Alan_alanov_small"
+		texturefile = "gfx/leaders/GAY/Alan_alanov.dds"
+	}
+}

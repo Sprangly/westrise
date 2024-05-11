@@ -1,0 +1,72 @@
+characters = {
+	GAY_alan_alanov = {
+		name = Alan_Alanov
+		portraits = {
+			army = {
+				small = "GFX_portrait_Alan_alanov_small"
+			}
+			civilian = {
+				small = "GFX_portrait_Alan_alanov_small"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = GAY_alan_alanov_hg
+			ledger = army_chief
+			allowed = {
+				original_tag = GAY
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	GAY_no_name = {
+		name = No_Name
+		portraits={
+			army={
+				small="GFX_idea_walther_funk"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = no_name_hg
+			allowed = {
+				original_tag = GAY
+			}
+			traits = {
+				war_industrialist 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+
+	GAY_Ahmet_Tsalikov = {
+		name = Ahmet_Tsalikov
+		portraits={
+			army={
+				small="GFX_idea_walther_funk"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ahmet_tsalikov_hg
+			allowed = {
+				original_tag = GAY
+			}
+			traits = {
+				popular_figurehead 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+}

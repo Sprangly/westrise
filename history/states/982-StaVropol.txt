@@ -1,0 +1,22 @@
+
+state={
+	id=982
+	name="STATE_982"
+	manpower = 313213
+	
+	state_category = rural
+
+	history={
+		owner = GAY
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GAY
+	}
+
+	provinces={
+		6702 6718 6733 9649 11633 11661 11664 11690 
+	}
+
+	local_supplies=0.0 
+}

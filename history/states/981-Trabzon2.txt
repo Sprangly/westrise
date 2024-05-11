@@ -1,0 +1,25 @@
+state=
+{
+	id=981
+	name="STATE_981"
+	manpower = 371121
+	
+	state_category = town
+	history=
+	{
+		owner = GAY
+		add_core_of = TUR
+		add_core_of = GAY
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		victory_points = {
+			10472 5
+		}
+	}
+	provinces={
+		789 7454 10403 10472 11753
+		}
+
+	local_supplies=0.0 
+}

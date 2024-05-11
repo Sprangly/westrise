@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_Loyalty_to_wise_leader"
+		texturefile = "gfx/interface/ideas/idea_Loyalty_to_wise_leader.dds"
+	}
+}

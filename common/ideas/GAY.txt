@@ -1,0 +1,53 @@
+ideas = {
+    country = {
+        Loyalty_to_wise_leader = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_Loyalty_to_wise_leader
+            
+            modifier = {
+                fascism_drift = 0.05
+                political_power_factor = 0.05
+            }
+        }
+    }
+
+     country = {
+        Kermenists = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_Loyalty_to_wise_leader
+            
+            modifier = {
+                political_power_factor = -0.05
+                drift_defence_factor = -0.3
+            }
+        }
+    }
+    country = {
+        Let's_stage_a_Jihad! = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_Loyalty_to_wise_leader
+            
+            modifier = {
+                consumer_goods_factor = -0.15
+            }
+        }
+    }
+}
