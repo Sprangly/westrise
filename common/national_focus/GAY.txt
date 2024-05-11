@@ -306,6 +306,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 3
+		completion_reward = {
+			
+		}
 
 	}
 	focus = {
