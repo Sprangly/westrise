@@ -41,7 +41,7 @@ recruit_character = zapolnitel
 
 create_country_leader = {
 	name = "imgekta"
-	picture = "Portrait_GAY_vhute.dds"
+	picture = "Portrait_AUC_imgekta.dds"
 	expire = "1976.3.1"
 	ideology = fascism_ideology
 	traits = { 
