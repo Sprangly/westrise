@@ -1,0 +1,26 @@
+
+state={
+	id=983
+	name="STATE_983" # Poltava
+	manpower = 89723
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			13365 3
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+		13365
+	}
+
+	local_supplies=10.0 
+}
