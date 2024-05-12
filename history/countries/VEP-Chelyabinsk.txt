@@ -37,13 +37,11 @@ set_popularities = {
 add_ideas = {
 }
 
-recruit_character = zapolnitel
-
 create_country_leader = {
 	name = "tlya"
-	picture = "Portrait_GAY_vhute.dds"
+	picture = "Portrait_VEP_tlya.dds"
 	expire = "1976.3.1"
-	ideology = democratic_idealogy
+	ideology = liberalism
 	traits = { 
 	}
 }
