@@ -6,3 +6,4 @@ add_ideas = {
 }
 give_military_access = AUC	
 give_military_access = GAY
+give_military_access = VEP

@@ -4,10 +4,14 @@ GAY = {
 	color_ui = rgb { 1 117 0 }
 }
 AUC = {
-	color = rgb { 78 79 9 }
-	color_ui = rgb { 48 48 6 }
+	color = rgb { 138 139 9 }
+	color_ui = rgb { 78 78 9 }
 }
 BOR = {
 	color = rgb { 51 51 51 }
 	color_ui = rgb { 25 25 25 }
+}
+VEP = {
+	color = rgb { 183 132 207 }
+	color_ui = rgb { 119 85 135 }
 }
