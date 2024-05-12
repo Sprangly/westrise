@@ -1,1 +1,3 @@
 GAY = "countries/OssetianReich.txt"
+AUC = "countries/AUC.txt"
+BOR = "countries/BOR.txt"

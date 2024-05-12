@@ -1,28 +1,28 @@
 
 state={
-	id=235
-	name="STATE_235"
-	manpower = 1103303
+	id=257
+	name="STATE_257" # Tambov
+	manpower = 1779583
 	
 	state_category = rural
+	
 	resources={
-		chromium=14 # was: 20
+		chromium=7 # was: 10
 	}
 
 	history={
 		owner = BOR
 		buildings = {
 			infrastructure = 2
-			air_base = 2
 		}
 		add_core_of = BOR
 		victory_points = {
-			11696 3
+			11351 1
 		}
 	}
 
 	provinces={
-		714 731 748 3748 6750 6753 9688 9705 9707 9726 9742 11678 11693 11694 11696 
+		232 275 313 340 367 396 471 3332 3389 9245 9312 9367 9422 11227 11296 11323 11351 11381 11436 
 	}
 
 	local_supplies=0.0 

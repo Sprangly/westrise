@@ -1,0 +1,22 @@
+focus_tree = {
+	id = BOR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOR
+		}
+	}
+	default = no
+	focus = {
+		id = BOR_sasi
+		icon = GFX_goal_generic_wolf_pack
+		cost = 5,00
+		x = 15
+		y = 0
+			completion_reward = {
+					add_political_power = 100
+				}
+
+	}
+}
