@@ -1,0 +1,29 @@
+division_template = {
+	name = "Militia"		# Army was a single infantry regiment of militia	
+
+	division_names_group = VEP_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	##### Militia Chelyabinska #####
+	division = {
+		name = "1ya divisia Militii"
+		location = 10256
+		division_template = "Militia"		
+		start_equipment_factor = 0.9
+
+        }
+	division = {
+		name = "2ya divisia Militii"
+		location = 9292
+		division_template = "Militia"		
+		start_equipment_factor = 1
+
+	}        
+		
+}

@@ -22,16 +22,22 @@ set_technology = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "2022.8.10"
+	election_frequency = 24
+	elections_allowed = yes
 }
 
+recruit_character = VEP_kokesh
+recruit_character = VEP_pashyn
+recruit_character = VEP_texler
+recruit_character = VEP_egorov
+recruit_character = VEP_pshenycyn
+
 set_popularities = {
-	democratic = 75
-	fascism = 2
-	communism = 12
-	neutrality = 11
+	democratic = 46
+	fascism = 14
+	communism = 23
+	neutrality = 17
 }
 
 add_ideas = {
