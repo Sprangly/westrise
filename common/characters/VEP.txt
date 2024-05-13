@@ -1,0 +1,108 @@
+characters = {
+
+	VEP_pshenycyn = {
+		name = VEP_pshenycyn
+		portraits={
+			civilian={
+				small="GFX_portrait_Pshenycin_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = no_name_hg
+			allowed = {
+				original_tag = VEP
+			}
+			traits = {
+				silent_workhorse 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	VEP_kokesh = {
+		name = VEP_kokesh
+		portraits={
+			civilian={
+				small="GFX_portrait_Kokesh_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = no_name_hg
+			allowed = {
+				original_tag = VEP
+			}
+			traits = {
+				prime_minister_kokesh 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	VEP_egorov = {
+		name = VEP_egorov
+		portraits={
+			civilian={
+				small="GFX_portrait_Egorov_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = no_name_hg
+			allowed = {
+				original_tag = VEP
+			}
+			traits = {
+				communist_revolutionary 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	VEP_pashyn = {
+		name = VEP_pashyn
+		portraits={
+			civilian={
+				small="GFX_portrait_Pashyn_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = no_name_hg
+			allowed = {
+				original_tag = VEP
+			}
+			traits = {
+				fascist_demagogue 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	VEP_texler = {
+		name = VEP_texler
+		portraits={
+			civilian={
+				small="GFX_portrait_Texler_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = no_name_hg
+			allowed = {
+				original_tag = VEP
+			}
+			traits = {
+				ex_gubernor 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+}
