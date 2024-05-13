@@ -24,4 +24,20 @@ spriteTypes = {
 		name = "GFX_portrait_Texler_small"
 		texturefile = "gfx/leaders/VEP/Portrait_VEP_texler.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_Pashyn_small"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Pashyn.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Pshenycin_small"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Pshenycin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Egorov_small"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Egorov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Texler_small"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Texler.dds"
+	}
 }
