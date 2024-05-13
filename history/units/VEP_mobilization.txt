@@ -1,0 +1,60 @@
+division_template = {
+	name = "Regular Army"		# Army was a single infantry regiment of militia	
+
+	division_names_group = VEP_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	##### Regular army of Chelyabinsk #####
+	division = {
+		name = "1ya Chelyabinskaya divisia imeni kokesha"
+		location = 10256
+		division_template = "Regular Army"		
+		start_equipment_factor = 0.9
+        }
+	division = {
+		name = "2ya Chelyabinskaya divisia"
+		location = 9292
+		division_template = "Regular Army"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3ya Chelyabinskaya divisia"
+		location = 9292
+		division_template = "Regular Army"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4ya Chelyabinskaya divisia"
+		location = 10256
+		division_template = "Regular Army"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "5ya Chelyabinskaya divisia"
+		location = 10256
+		division_template = "Regular Army"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "6ya Chelyabinskaya divisia"
+		location = 9292
+		division_template = "Regular Army"		
+		start_equipment_factor = 0.9
+	}
+		
+}
