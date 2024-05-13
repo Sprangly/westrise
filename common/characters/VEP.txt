@@ -9,7 +9,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = no_name_hg
+			idea_token = VEP_pshenycyn
 			allowed = {
 				original_tag = VEP
 			}
@@ -25,12 +25,12 @@ characters = {
 		name = VEP_kokesh
 		portraits={
 			civilian={
-				small="GFX_portrait_Kokesh_small"
+				small="GFX_portrait_Kokesh_idea_small"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = no_name_hg
+			idea_token = VEP_kokesh
 			allowed = {
 				original_tag = VEP
 			}
@@ -51,7 +51,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = no_name_hg
+			idea_token = VEP_egorov
 			allowed = {
 				original_tag = VEP
 			}
@@ -72,7 +72,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = no_name_hg
+			idea_token = VEP_pashyn
 			allowed = {
 				original_tag = VEP
 			}
@@ -93,7 +93,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = no_name_hg
+			idea_token = VEP_texler
 			allowed = {
 				original_tag = VEP
 			}
