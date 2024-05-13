@@ -1,0 +1,18 @@
+spriteTypes = {
+	###############################
+	### MOD More Division Icons Fixed ###
+
+	# sprite numbers need to be continuous!
+	# base game uses    0 -  89
+	# MDIF uses 		90 - 160
+
+	###########################################
+	### Large images for DIVISION TEMPLATES ###
+    
+	spriteType = { name = "GFX_div_templ_90_large"										textureFile = "gfx/interface/counters/division_templates_large/custom_template_090.dds" }	
+	
+	###########################################
+	### Small images for DIVISION TEMPLATES ###
+	
+	spriteType = { name = "GFX_div_templ_90_small"										textureFile = "gfx/interface/counters/division_templates_small/custom_template_090.dds" }	
+}
