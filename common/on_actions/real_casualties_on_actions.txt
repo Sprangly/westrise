@@ -1,0 +1,30 @@
+on_actions = {
+	on_daily = {
+		effect = {
+			### REMOVE MANPOWER FROM STATES
+			if = {
+				limit = {
+					check_variable = { casualties_k > casualties_calculated_deaths_k }
+				}
+				set_variable = { casualties_civs_to_be_removed_k = casualties_k }
+				subtract_from_variable = { casualties_civs_to_be_removed_k = casualties_calculated_deaths_k }
+				add_to_variable = { casualties_calculated_deaths_k = casualties_civs_to_be_removed_k }
+				set_variable = { casualties_civs_to_be_removed = casualties_civs_to_be_removed_k }
+				multiply_variable = { casualties_civs_to_be_removed = 1000 }
+				set_variable = { ROOT.casualties_civs_to_be_removed_for_state = casualties_civs_to_be_removed }
+				multiply_variable = { casualties_civs_to_be_removed_for_state = -1 }
+				divide_variable = { casualties_civs_to_be_removed_for_state = num_core_states }
+				round_variable = casualties_civs_to_be_removed_for_state
+				every_core_state = { 
+					add_manpower = ROOT.casualties_civs_to_be_removed_for_state
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { casualties_calculated_deaths_k > casualties_k }
+				}
+				set_variable = { casualties_calculated_deaths_k = casualties_k }
+			}
+		}
+	}
+}
