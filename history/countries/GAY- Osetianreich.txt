@@ -42,6 +42,8 @@ add_ideas = {
 recruit_character = GAY_alan_alanov
 recruit_character = GAY_no_name
 recruit_character = GAY_Ahmet_Tsalikov
+recruit_character = GAY_Bitarov_Vyche
+recruit_character = GAY_Adam_Methuselah
 
 create_country_leader = {
 	name = "vhute"
