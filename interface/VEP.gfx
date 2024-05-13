@@ -9,6 +9,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/VEP/Portrait_VEP_kokesh.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Kokesh_idea_small"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Kokesh_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_Pashyn_small"
 		texturefile = "gfx/leaders/VEP/Portrait_VEP_pashyn.dds"
 	}
