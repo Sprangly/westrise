@@ -22,25 +22,25 @@ units = {
 	##### Regular army of Chelyabinsk #####
 	division = {
 		name = "1ya Chelyabinskaya divisia imeni kokesha"
-		location = 10256
+		location = 12157
 		division_template = "Regular Army"		
 		start_equipment_factor = 0.9
         }
 	division = {
 		name = "2ya Chelyabinskaya divisia"
-		location = 9292
+		location = 4265
 		division_template = "Regular Army"		
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "3ya Chelyabinskaya divisia"
-		location = 9292
+		location = 4242
 		division_template = "Regular Army"		
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "4ya Chelyabinskaya divisia"
-		location = 10256
+		location = 4383
 		division_template = "Regular Army"		
 		start_equipment_factor = 0.9
 	}
