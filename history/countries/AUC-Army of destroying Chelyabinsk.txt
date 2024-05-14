@@ -59,5 +59,27 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 3
 }
+create_corps_commander = {
+    name = "Ivan Ferstapen"
+    id = 568
+        picture = "ivan_ferstapen.dds"
+    traits = { armor_officer }
+    skill = 3
+
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 2
+}
 create_field_marshal = {
+    name = "Dmitry Soldatenko"
+    id = 984
+        picture = "dmitry_soldatenko.dds"
+    traits = { winter_specialist guerilla_fighter }
+    skill = 5
+
+    attack_skill = 2
+    defense_skill = 6
+    planning_skill = 4
+    logistics_skill = 2
 }
