@@ -15,17 +15,25 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"GAY"={
-			history = "GAY_GATHERING_STORM_DESC"
-			ideology = fascism
+		"VEP"={
+			history = "VEP_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"VEP"={
-			history = "VEP_GATHERING_STORM_DESC"
-			ideology = democratic
+		"DNR"={
+			history = "DNR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GAY"={
+			history = "GAY_GATHERING_STORM_DESC"
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {

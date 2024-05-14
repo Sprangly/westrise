@@ -4,4 +4,12 @@ spriteTypes = {
 		name = "GFX_portrait_Alan_alanov_small"
 		texturefile = "gfx/leaders/GAY/Alan_alanov.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_Bitarov_Vyche_small"
+		texturefile = "gfx/leaders/GAY/Bitarov_Vyche.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Adam_Methuselah_small"
+		texturefile = "gfx/leaders/GAY/Adam_Methuselah.dds"
+	}
 }

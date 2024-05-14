@@ -69,4 +69,48 @@ characters = {
 			}
 		}		
 	}
+
+	GAY_Bitarov_Vyche = {
+	    name = Bitarov_Vyche
+	    portraits={
+		    army={
+				small="GFX_portrait_Bitarov_Vyche_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = bitarov_vyche_hg
+			allowed = {
+				original_tag = GAY
+			}
+			traits = {
+				prince_of_terror 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	
+	GAY_Adam_Methuselah = {
+	    name = Adam_Methuselah
+	    portraits={
+		    army={
+				small="GFX_portrait_Adam_Methuselah_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = adam_methuselah_hg
+			allowed = {
+				original_tag = GAY
+			}
+			traits = {
+				minister_of_finance_deressa 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
 }

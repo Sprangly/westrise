@@ -27,7 +27,7 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_AUC
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_MO
 		cost = 3
 		bypass = { has_war_with=AUC }
 		x = 5
@@ -41,7 +41,7 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_call_to_mo
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_MOBIKI
 		cost = 3
 		bypass = { has_war_with=AUC }
 		x = 5
@@ -57,7 +57,7 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_AUC
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_VPK
 		cost = 3
 		bypass = { has_war_with=AUC }
 		x = 7
@@ -71,7 +71,7 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_call_to_vpk
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_SNARIADI
 		cost = 3
 		bypass = { has_war_with=AUC }
 		x = 7
@@ -99,13 +99,13 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_AUC
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_MVD
 		cost = 3
 		bypass = { has_war_with=AUC }
 		x = 9
 		y = 1
 		completion_reward = {
-			add_command_power = 25
+			load_oob = "VEP_police"
 		}
 	}
 	focus = {
@@ -113,7 +113,7 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_call_to_police
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_NOSHIZ
 		cost = 3
 		bypass = { has_war_with=AUC }
 		x = 9
@@ -133,7 +133,7 @@ focus_tree = {
 			focus = VEP_complect_army
 			focus = VEP_mobilization
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_KOK
 		cost = 2
 		bypass = {
 			has_war_with=AUC 

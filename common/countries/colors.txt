@@ -15,3 +15,7 @@ VEP = {
 	color = rgb { 183 132 207 }
 	color_ui = rgb { 119 85 135 }
 }
+DNR = {
+	color = rgb { 106 62 194 }
+	color_ui = rgb { 53 30 99 }
+}
