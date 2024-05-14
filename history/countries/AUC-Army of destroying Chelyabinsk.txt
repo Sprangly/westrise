@@ -83,3 +83,15 @@ create_field_marshal = {
     planning_skill = 4
     logistics_skill = 2
 }
+create_corps_commander = {
+    name = "Anton Ivanov"
+    id = 789
+        picture = "anton_ivanov.dds"
+    traits = { infantry_leader }
+    skill = 5
+
+    attack_skill = 5
+    defense_skill = 5
+    planning_skill = 2
+    logistics_skill = 1
+}
