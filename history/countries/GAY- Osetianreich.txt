@@ -129,3 +129,25 @@ create_field_marshal = {
 	planning_skill = 3
 	logistics_skill = 3
 }
+create_corps_commander = {
+    name = "Abu Ubaida"
+        picture = "ubaida.dds"
+    traits = { guerilla_fighter war_hero }
+    skill = 4
+
+    attack_skill = 3
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 4
+}
+create_corps_commander = {
+    name = "Fun pozy"
+        picture = "rambo.dds"
+    traits = { media_personality }
+    skill = 1
+
+    attack_skill = 1
+    defense_skill = 4
+    planning_skill = 1
+    logistics_skill = 1
+}
