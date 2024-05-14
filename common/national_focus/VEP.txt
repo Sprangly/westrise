@@ -99,7 +99,7 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_AUC
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_MVD
 		cost = 3
 		bypass = { has_war_with=AUC }
 		x = 9
@@ -113,7 +113,7 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_call_to_police
 		}
-		icon = GFX_404
+		icon = GFX_focus_VEP_NOSHIZ
 		cost = 3
 		bypass = { has_war_with=AUC }
 		x = 9
