@@ -53,6 +53,58 @@ create_country_leader = {
 	}
 }
 create_corps_commander = {
+    name = "Stepan Vlasov"
+        picture = "stepan_vlasov.dds"
+    traits = { media_personality war_hero }
+    skill = 5
+
+    attack_skill = 6
+    defense_skill = 6
+    planning_skill = 4
+    logistics_skill = 2
 }
 create_field_marshal = {
+    name = "Valeriy Krivoy"
+    id = 
+        picture = "valeriy_krivoy.dds"
+    traits = { infantry_leader }
+    skill = 4
+
+    attack_skill = 4
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 2
+}
+create_corps_commander = {
+    name = "Andrey Lihachov"
+        picture = "andrey_lihachov.dds"
+    traits = { media_personality war_hero }
+    skill = 3
+
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+    name = "Andrey Lihachov"
+        picture = "alexander_bespalov.dds"
+    traits = { infantry_leader }
+    skill = 3
+
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+    name = "German Stepanov"
+        picture = "german_stepanov.dds"
+    traits = { }
+    skill = 2
+
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 1
+    logistics_skill = 1
 }
