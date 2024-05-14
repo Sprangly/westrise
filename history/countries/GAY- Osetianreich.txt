@@ -37,6 +37,7 @@ set_popularities = {
 add_ideas = {
 	sisu
 	Kermenists
+	partial_economic_mobilisation
 }
 
 recruit_character = GAY_alan_alanov
