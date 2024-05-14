@@ -3,7 +3,7 @@ ideas = {
 		VEP_no_weapons_nation = {
 			removal_cost = -1
 
-			picture = GFX_idea_pacific_nation
+			picture = GFX_idea_VEP_no_weapons_nation
 
 			modifier = {
 				army_attack_factor = -0.3

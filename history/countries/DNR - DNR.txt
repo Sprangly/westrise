@@ -38,6 +38,12 @@ add_ideas = {
 }
 
 create_country_leader = {
+    name = "Kinder"
+	picture = "Kinder.dds"
+	expire = "1976.3.1"
+	ideology = centrism
+	traits = { 
+	}
 }
 create_corps_commander = {
     name = "Motorola"
