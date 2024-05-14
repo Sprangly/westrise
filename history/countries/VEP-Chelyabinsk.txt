@@ -107,3 +107,25 @@ create_corps_commander = {
     planning_skill = 1
     logistics_skill = 1
 }
+create_corps_commander = {
+    name = "Genady Viktorov"
+        picture = "genady_viktorov.dds"
+    traits = { infantry_leader }
+    skill = 3
+
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+    name = "Semen Pavlov"
+        picture = "semen_pavlov.dds"
+    traits = { }
+    skill = 3
+
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
