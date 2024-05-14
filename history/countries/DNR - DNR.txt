@@ -74,7 +74,7 @@ create_corps_commander = {
 }
 create_field_marshal = {
     name = "Valery Bolotov"
-        picture = "valery_volotov.dds"
+        picture = "valery_bolotov.dds"
     traits = { media_personality infantry_leader }
     skill = 5
 
