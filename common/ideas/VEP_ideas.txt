@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+		VEP_no_weapons_nation = {
+			removal_cost = -1
+			picture = GFX_idea_404
+				modifier = {
+					army_attack_factor = -0.3
+					army_defence_factor = -0.2
+					Army_org_factor = -0.5
+					war_support_factor = -0.3
+					conscription_factor = -0.3
+				}
+		}
+	}
+}

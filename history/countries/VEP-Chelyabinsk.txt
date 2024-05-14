@@ -42,6 +42,8 @@ set_popularities = {
 
 activate_advisor=VEP_kokesh
 add_ideas = {
+	VEP_no_weapons_nation
+	free_trade
 }
 
 create_country_leader = {
