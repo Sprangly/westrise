@@ -1,0 +1,235 @@
+music = {
+	name = "AbatKari"
+	file = "AbatKari.ogg"
+	volume = 1
+}
+music = {
+	name = "AntiRuskiSongSyria"
+	file = "AntiRuskiSongSyria.ogg"
+	volume = 1
+}
+music = {
+	name = "AntiSuriaTURKEEAction"
+	file = "AntiSuriaTURKEEAction.ogg"
+	volume = 1
+}
+music = {
+	name = "ArisePalestinaPeople"
+	file = "ArisePalestinaPeople.ogg"
+	volume = 1
+}
+music = {
+	name = "BestChechenSong"
+	file = "BestChechenSong.ogg"
+	volume = 1
+}
+music = {
+	name = "BosniaNashed"
+	file = "BosniaNashed.ogg"
+	volume = 1
+}
+music = {
+	name = "ChechenAntiRuskiSong"
+	file = "ChechenAntiRuskiSong.ogg"
+	volume = 1
+}
+music = {
+	name = "ChechenBaladFirstMay"
+	file = "ChechenBaladFirstMay.ogg"
+	volume = 1
+}
+music = {
+	name = "ChechenBandit"
+	file = "ChechenBandit.ogg"
+	volume = 1
+}
+music = {
+	name = "ChechenSuicidOrNo"
+	file = "ChechenSuicidOrNo.ogg"
+	volume = 1
+}
+music = {
+	name = "ChechniaMoskva"
+	file = "ChechniaMoskva.ogg"
+	volume = 1
+}
+music = {
+	name = "ChotoPalestinskoe"
+	file = "ChotoPalestinskoe.ogg"
+	volume = 1
+}
+music = {
+	name = "Chtobineboyatsia"
+	file = "Chtobineboyatsia.ogg"
+	volume = 1
+}
+music = {
+	name = "FalushiaLion"
+	file = "FalushiaLion.ogg"
+	volume = 1
+}
+music = {
+	name = "GadafiGimnLivii"
+	file = "GadafiGimnLivii.ogg"
+	volume = 1
+}
+music = {
+	name = "Gazavat"
+	file = "Gazavat.ogg"
+	volume = 1
+}
+music = {
+	name = "GeroiOsetii"
+	file = "GeroiOsetii.ogg"
+	volume = 1
+}
+music = {
+	name = "Gimnkavkaza"
+	file = "Gimnkavkaza.ogg"
+	volume = 1
+}
+music = {
+	name = "HamasAntiJewSong"
+	file = "HamasAntiJewSong.ogg"
+	volume = 1
+}
+music = {
+	name = "HamasTrollSong"
+	file = "HamasTrollSong.ogg"
+	volume = 1
+}
+music = {
+	name = "Italpalestin"
+	file = "Italpalestin.ogg"
+	volume = 1
+}
+music = {
+	name = "JaijalatNashedus"
+	file = "JaijalatNashedus.ogg"
+	volume = 1
+}
+music = {
+	name = "Jerusalem"
+	file = "Jerusalem.ogg"
+	volume = 1
+}
+music = {
+	name = "Marshi"
+	file = "Marshi.ogg"
+	volume = 1
+}
+music = {
+	name = "MiGeroi"
+	file = "MiGeroi.ogg"
+	volume = 1
+}
+music = {
+	name = "MiNeOslably"
+	file = "MiNeOslably.ogg"
+	volume = 1
+}
+music = {
+	name = "Narodniosetinpesnia"
+	file = "Narodniosetinpesnia.ogg"
+	volume = 1
+}
+music = {
+	name = "NasheedRemix"
+	file = "NasheedRemix.ogg"
+	volume = 1
+}
+music = {
+	name = "NonStopNashedBrainrot"
+	file = "NonStopNashedBrainrot.ogg"
+	volume = 1
+}
+music = {
+	name = "NozchochniiRazogovoriChechen"
+	file = "NozchochniiRazogovoriChechen.ogg"
+	volume = 1
+}
+music = {
+	name = "OsetinWarSong"
+	file = "OsetinWarSong.ogg"
+	volume = 1
+}
+music = {
+	name = "OsetiyaVelik"
+	file = "OsetiyaVelik.ogg"
+	volume = 1
+}
+music = {
+	name = "OSMANUSTURKEE"
+	file = "OSMANUSTURKEE.ogg"
+	volume = 1
+}
+music = {
+	name = "PalestinaMeNoTerrorist"
+	file = "PalestinaMeNoTerrorist.ogg"
+	volume = 1
+}
+music = {
+	name = "PalestinaResist"
+	file = "PalestinaResist.ogg"
+	volume = 1
+}
+music = {
+	name = "PalestinKillJew"
+	file = "PalestinKillJew.ogg"
+	volume = 1
+}
+music = {
+	name = "PobedaIliRay"
+	file = "PobedaIliRay.ogg"
+	volume = 1
+}
+music = {
+	name = "SerzshenYurt"
+	file = "SerzshenYurt.ogg"
+	volume = 1
+}
+music = {
+	name = "SunnahSong"
+	file = "SunnahSong.ogg"
+	volume = 1
+}
+music = {
+	name = "SyriaNashedEpic"
+	file = "SyriaNashedEpic.ogg"
+	volume = 1
+}
+music = {
+	name = "TakbiriSongus"
+	file = "TakbiriSongus.ogg"
+	volume = 1
+}
+music = {
+	name = "VelikiyBorbaOsetin"
+	file = "VelikiyBorbaOsetin.ogg"
+	volume = 1
+}
+music = {
+	name = "VhuteYaTebiaVRotEbalSEtimiNashedami"
+	file = "VhuteYaTebiaVRotEbalSEtimiNashedami.ogg"
+	volume = 1
+}
+music = {
+	name = "VoImyaAllahaChechen"
+	file = "VoImyaAllahaChechen.ogg"
+	volume = 1
+}
+music = {
+	name = "VstavayCaucaus"
+	file = "VstavayCaucaus.ogg"
+	volume = 1
+}
+music = {
+	name = "WelcumToHell"
+	file = "WelcumToHell.ogg"
+	volume = 1
+}
+music = {
+	name = "YaVasNeBoyus"
+	file = "YaVasNeBoyus.ogg"
+	volume = 1
+}
