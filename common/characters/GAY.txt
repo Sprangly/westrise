@@ -52,7 +52,7 @@ characters = {
 		name = Ahmet_Tsalikov
 		portraits={
 			army={
-				small="GFX_idea_walther_funk"
+				small="GFX_portrait_Tsalikov_small"
 			}
 		}
 		advisor={
