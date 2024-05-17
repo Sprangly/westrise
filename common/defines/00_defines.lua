@@ -24,26 +24,7 @@ NGame = {
 	ALERT_SFX_COOLDOWN_DAYS = 14,					-- After playing an alert sound, don't play the same sound for XXX days, even if it fires again.
 	MUSIC_PLAYER_RECENTLY_PLAYED_SIZE = 10,			-- The music player keeps track of recently played music to try and avoid playing the same songs too often. This determines the max number of songs in the recently played list.
 },
--- Spot Optimizations--------------------------------------------------------------------------------------
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 60
-NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 36
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.35, 0.15, 0.1, 0.035, 0.0 }
-NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 30
-NDefines.NAI.EQUIPMENT_MARKET_BASE_MARKET_RATIO = 0.35
 
-Nlua = {
-
-NTopbar = {
-	GAME_SPEED_LIMIT = 0,	-- Unlocks Speed to match as much as the proccessor can handle
-	GAME_SPEED_STEPS = 5,	-- DONT CHANGE -- Deals with graphics and speed settings
-	GAME_SPEED_ONE = 1,	-- DONT CHANGE --
-	GAME_SPEED_TWO = 2,	-- DONT CHANGE --
-	GAME_SPEED_THREE = 3,	-- DONT CHANGE --
-	GAME_SPEED_FOUR = 4,	-- DONT CHANGE --
-	GAME_SPEED_FIVE = 5,	-- DONT CHANGE --
-	}
-}
 NDiplomacy = {
 	DIPLOMACY_REQUEST_EXPIRY_DAYS = 30,
 	BASE_SURRENDER_LEVEL = 1.0,						-- Surrender when level reached. valid 0-1
