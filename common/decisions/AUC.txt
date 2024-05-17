@@ -21,7 +21,10 @@ AUC_war_category = {
 		priority = 10
 
 		timeout_effect = {
-        add_political_power = 50 
+            declare_war_on = {
+                target = VEP
+                type = annex_everything
+            }
 	    }
     }
 }
