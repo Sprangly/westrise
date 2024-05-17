@@ -29,10 +29,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 5
-	fascism = 70
-	communism = 15
-	neutrality = 10
+	democratic = 0
+	fascism = 68
+	communism = 32
+	neutrality = 0
 }
 
 add_ideas = {
