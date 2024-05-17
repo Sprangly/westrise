@@ -1,10 +1,14 @@
 AUC_war_category = {
     AUC_war_mission = {
+        
 		priority = 10
+
 		icon = GFX_decision_revolt
+
 		allowed = {
 			tag = AUC
 		}
+
         fire_only_once = yes
 		available = {
 			hidden_trigger = { always = no }
@@ -13,7 +17,9 @@ AUC_war_category = {
 			987 = { is_fully_controlled_by = AUC  } 
 		}
 	    days_mission_timeout = 22
+
 		priority = 10
+
 		timeout_effect = {
             declare_war_on = {
                 target = VEP
