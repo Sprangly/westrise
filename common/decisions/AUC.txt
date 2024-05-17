@@ -8,7 +8,7 @@ AUC_war_category = {
 		allowed = {
 			tag = AUC
 		}
-		
+
         fire_only_once = yes
 		available = {
 			hidden_trigger = { always = no }
@@ -28,44 +28,3 @@ AUC_war_category = {
 	    }
     }
 }
-}
-	SPA_military_plot_nationalists = {
-
-		priority = 10
-
-		icon = generic_ignite_civil_war
-
-		available = {
-			hidden_trigger = { always = no }
-		}
-
-		days_mission_timeout = 250
-
-		fire_only_once = yes
-
-		activation = {
-			has_country_flag = SPR_spanish_elections_flag
-			NOT = { has_global_flag = spanish_civil_war }
-		}
-
-		visible = {
-			tag = SPR
-			has_completed_focus = SPA_a_great_spain
-			has_country_flag = SPR_spanish_elections_flag
-			NOT = { has_global_flag = spanish_civil_war }
-		}
-
-		cancel_if_not_visible = yes
-
-		is_good = yes
-
-		timeout_effect = {
-			country_event = lar_spain.2
-			if = {
-				limit = {
-					has_idea = SPA_awaiting_the_rebellion
-				}
-				remove_ideas = SPA_awaiting_the_rebellion
-			}
-		}
-	}
