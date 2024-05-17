@@ -1,0 +1,27 @@
+AUC_war_category = {
+  AUC_war_mission = {
+		icon = GFX_decision_revolt
+		allowed = {
+            tag = AUC
+        }
+		available = {
+			IF = {
+				limit = {
+					tag = AUC
+			    }
+			}
+		}
+		days_mission_timeout = 22
+		activation = {
+			AUC = {
+				NOT = {
+                    has_war_with = VEP
+			    }
+			}
+		}
+		fire_only_once = yes
+		timeout_effect = {
+           add_political_power = 50 
+		}
+	}
+}
