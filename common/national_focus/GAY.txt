@@ -11,504 +11,176 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_neweracaucasus
 		icon = GFX_goal_generic_wolf_pack
-		cost = 35
-		x = 15
+		cost = 7
+		x = 25
 		y = 0
-			completion_reward = {
-					add_political_power = 100
-				}
-
-	}
-	focus = {
-		id = GAY_Predpriatia
-		icon = GFX_goal_generic_construction2
-		cost = 70,00
-		x = 4
-		y = 0
-			completion_reward = {
-					add_stability = -0.05
-					828 = {
-							add_extra_state_shared_building_slots = 3
-							add_building_construction = {
-									type = industrial_complex
-									level = 3
-									instant_build = yes
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = GAY_Zemli
-		icon = GFX_goal_generic_construction2
-		cost = 70,00
-		prerequisite = {
-			focus = GAY_Predpriatia
-		}
-		x = 3
-		y = 1
-			completion_reward = {
-					add_stability = +0.1
-					828 = {
-							add_extra_state_shared_building_slots = 2
-						}
-					821 = {
-							add_extra_state_shared_building_slots = 2
-						}
-				}
-
-	}
-	focus = {
-		id = GAY_Dorogy
-		icon = GFX_goal_generic_construction2
-		cost = 70,00
-		prerequisite = {
-			focus = GAY_Zemli
-		}
-		x = 3
-		y = 2
-			completion_reward = {
-					828 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					821 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					827 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					232 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = GAY_Evrei
-		icon = GFX_goal_generic_construction2
-		cost = 70,00
-		prerequisite = {
-			focus = GAY_Predpriatia
-		}
-		x = 5
-		y = 1
-			completion_reward = {
-					add_stability = -0.02
-					827 = {
-							add_building_construction = {
-									type = industrial_complex
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = GAY_Prepare_for_war
-		icon = GFX_goal_generic_construction2
-		cost = 70
-		prerequisite = {
-			focus = GAY_Evrei
-		}
-		x = 5
-		y = 2
-			completion_reward = {
-					231 = {
-							add_building_construction = {
-									type = arms_factory
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = GAY_start_artisanal_production
-		icon = GFX_goal_generic_construction2
-		cost = 70
-		prerequisite = {
-			focus = GAY_Prepare_for_war
-			focus = GAY_Dorogy
-		}
-		x = 4
-		y = 3
-			completion_reward = {
-					add_stability = -0.02
-					827 = {
-							add_building_construction = {
-									type = industrial_complex
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = GAY_Focus_Gorni_Bastion
-		icon = GFX_focus_SMB_mountain_guns
-		cost = 70
-		prerequisite = {
-			focus = GAY_Focus_neweracaucasus
-		}
-		x = 13
-		y = 1
-			completion_reward = {
-					229 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					230 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					231 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					232 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					981 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					982 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					821 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					826 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					827 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-					828 = {
-							add_building_construction = {
-									type = anti_air_building
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = GAY_Focus_Strengthen_North_Caucasus
-		icon = GFX_goal_generic_construct_military
-		cost = 35
-		prerequisite = {
-			focus = GAY_Focus_Gorni_Bastion
-		}
-		x = 13
-		y = 2
-
-	}
-	focus = {
-		id = GAY_Focus_Strengthen_Transcaucasia
-		icon = GFX_goal_generic_fortify_city
-		cost = 35
-		prerequisite = {
-			focus = GAY_Focus_Strengthen_North_Caucasus
-		}
-		x = 13
-		y = 3
-
-	}
-	focus = {
-		id = GAY_Focus_Loyalty_to_wise_leader
-		icon = GFX_focus_ger_assassinate_mussolini
-		cost = 70
-		prerequisite = {
-			focus = GAY_Focus_neweracaucasus
-		}
-		x = 17
-		y = 1
-			completion_reward = {
-					add_ideas = { Loyalty_to_wise_leader }
-				}
-
-	}
-	focus = {
-		id = GAY_Focus_Eliminate_red_hreat
-		icon = GFX_focus_SWE_attack_landsorganisationen
-		cost = 35
-		prerequisite = {
-			focus = GAY_Focus_Loyalty_to_wise_leader
-		}
-		x = 16
-		y = 2
 		completion_reward = {
-			remove_ideas = {
-				Kermenists
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = GAY_Focus_add_represii
+		icon = GFX_goal_404
+		cost = 7
+		x = 26
+		y = 1
+		prerequisite = {
+			focus = GAY_Focus_neweracaucasus
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.1
 			}
+			add_stability = 0.05
 		}
-
 	}
 	focus = {
-		id = GAY_Focus_VHUTE_IS_WATCHING_YOU
-		icon = GFX_focus_SWI_embrace_rote_drei
-		cost = 35
+		id = GAY_Focus_expand_specsluzhbi
+		icon = GFX_goal_404
+		cost = 7
+		x = 24
+		y = 1
 		prerequisite = {
-			focus = GAY_Focus_Eliminate_red_hreat
+			focus = GAY_Focus_neweracaucasus
 		}
-		x = 16
-		y = 3
 		completion_reward = {
-			
+			load_oob = GAY_specsluzhbi
 		}
-
 	}
 	focus = {
-		id = GAY_Focus_Vhute's_constitution
-		icon = GFX_goal_generic_demand_territory
-		cost = 105
-		prerequisite = {
-			focus = GAY_Focus_Loyalty_to_wise_leader
-		}
-		x = 18
+		id = GAY_Focus_make_constitution
+		icon = GFX_goal_404
+		cost = 35
+		x = 25
 		y = 2
-
-	}
-	focus = {
-		id = GAY_Focus_koran
-		icon = GFX_focus_generic_population_growth
-		cost = 35
 		prerequisite = {
-			focus = GAY_Focus_Vhute's_constitution
-		}
-		x = 18
-		y = 3
-
-	}
-	focus = {
-		id = GAY_Focus_Trip_to_Colossus
-		icon = GFX_focus_attack_soviet
-		cost = 20,00
-		prerequisite = {
-			focus = GAY_Focus_Strengthen_Transcaucasia
+			focus = GAY_Focus_expand_specsluzhbi
 		}
 		prerequisite = {
-			focus = GAY_Focus_VHUTE_IS_WATCHING_YOU
+			focus = GAY_Focus_add_represii
 		}
-		prerequisite = {
-			focus = GAY_Focus_koran
-		}
-		x = 15
-		y = 4
-
-	}
-	focus = {
-		id = GAY_Focus_Burn_Russian_villages
-		icon = GFX_focus_ARG_defense_and_democracy
-		cost = 35
-		prerequisite = {
-			focus = GAY_Focus_Trip_to_Colossus
-		}
-		x = 14
-		y = 5
-
-	}
-	focus = {
-		id = GAY_Focus_mobilization_local_elements
-		icon = GFX_focus_SOV_penal_battalions
-		cost = 35
-		prerequisite = {
-			focus = GAY_Focus_Trip_to_Colossus
-		}
-		x = 16
-		y = 5
-
-	}
-	focus = {
-		id = GAY_Focus_export_local_industries
-		icon = GFX_focus_generic_modernize_industry
-		cost = 70
-		prerequisite = {
-			focus = GAY_Focus_mobilization_local_elements
-		}
-		prerequisite = {
-			focus = GAY_Focus_Burn_Russian_villages
-		}
-		x = 15
-		y = 6
-
-	}
-	focus = {
-		id = GAY_Focus_second_part_of_operation
-		icon = GFX_focus_PAR_neuter_the_guion_rojo
-		cost = 70
-		prerequisite = {
-			focus = GAY_Focus_export_local_industries
-		}
-		x = 15
-		y = 7
-
-	}
-	focus = {
-		id = GAY_Focus_Help
-		icon = GFX_focus_generic_american_investments
-		cost = 70
-		prerequisite = {
-			focus = GAY_Focus_second_part_of_operation
-		}
-		mutually_exclusive = {
-			focus = GAY_Focus_Solo
-			focus = GAY_Focus_ROVS
-		}
-		x = 13
-		y = 8
-
-	}
-	focus = {
-		id = GAY_Focus_Solo
-		icon = GFX_goal_demand_sudetenland
-		cost = 70
-		prerequisite = {
-			focus = GAY_Focus_second_part_of_operation
-		}
-		mutually_exclusive = {
-			focus = GAY_Focus_Help
-			focus = GAY_Focus_ROVS
-		}
-		x = 15
-		y = 8
-
-	}
-	focus = {
-		id = GAY_Focus_ROVS
-		icon = GFX_goal_generic_secret_weapon
-		cost = 70
-		prerequisite = {
-			focus = GAY_Focus_second_part_of_operation
-		}
-		mutually_exclusive = {
-			focus = GAY_Focus_Help
-			focus = GAY_Focus_Solo
-		}
-		x = 17
-		y = 8
-
-	}
-	focus = {
-		id = GAY_Focus_Help_Poland
-		icon = GFX_goal_continuous_increase_nu
-		cost = 70
-		prerequisite = {
-			focus = GAY_Focus_ROVS
-			focus = GAY_Focus_Solo
-			focus = GAY_Focus_Help
-		}
-		x = 15
-		y = 9
-
-	}
-	focus = {
-		id = GAY_tunnel
-		icon = GFX_goal_generic_construction2
-		cost = 70
-		prerequisite = {
-			focus = GAY_start_artisanal_production
-		}
-		x = 4
-		y = 4
-			completion_reward = {
-					826 = {
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = GAY_jihad
-		icon = GFX_goal_generic_construction2
-		cost = 70
-		prerequisite = {
-			focus = GAY_tunnel
-		}
-		x = 4
-		y = 5
 		completion_reward = {
 			add_ideas = {
-				Let's_stage_a_Jihad!
+				Constitution_of_Caucasus
 			}
 		}
 	}
 	focus = {
-		id = GAY_large_enterprises
-		icon = GFX_goal_generic_construction2
-		cost = 70
+		id = GAY_Focus_our_geopolitic
+		icon = GFX_goal_404
+		cost = 35
+		x = 21
+		y = 3
 		prerequisite = {
-			focus = GAY_jihad
+			focus = GAY_Focus_make_constitution
 		}
-		x = 4
-		y = 6
-			completion_reward = {
-					981 = {
-						add_extra_state_shared_building_slots = 2
-						add_building_construction = {
-							type = industrial_complex
-							level = 2
-							instant_build = yes
-							}
-						}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = GAY_Focus_solve_problems
+		icon = GFX_goal_404
+		cost = 35
+		x = 25
+		y = 3
+		prerequisite = {
+			focus = GAY_Focus_make_constitution
+		}
+		completion_reward = {
+			add_stability = 0.02
+			add_war_support = 0.04
+		}
+	}
+	focus = {
+		id = GAY_Focus_improve_roads
+		icon = GFX_goal_404
+		cost = 35
+		x = 29
+		y = 3
+		prerequisite = {
+			focus = GAY_Focus_make_constitution
+		}
+		completion_reward = {
+			828 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
 				}
-
+			}
+			982 = {
+				set_building_level = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+			229 = {
+				set_building_level = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAY_Focus_our_resources
+		icon = GFX_goal_404
+		cost = 35
+		x = 31
+		y = 4
+		prerequisite = {
+			focus = GAY_Focus_improve_roads
+		}
+		completion_reward = {
+			821 = {
+				add_resource = {
+					type = oil
+					amount = 30
+				}
+			}
+			827 = {
+				add_resource = {
+					type = chromium
+					amount = 30
+				}
+			}
+			981 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAY_Focus_build_new_magistral
+		icon = GFX_goal_404
+		cost = 35
+		x = 35
+		y = 4
+		prerequisite = {
+			focus = GAY_Focus_improve_roads
+		}
+		completion_reward = {
+			build_railway = {
+				level = 3
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = GAY
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 1599 1530 11609 9628 }
+				start_province = 1599
+				target_province = 9628
+			}
+		}
 	}
 }	

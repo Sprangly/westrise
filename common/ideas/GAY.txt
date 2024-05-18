@@ -50,4 +50,21 @@ ideas = {
             }
         }
     }
+	country = {
+        Constitution_of_Caucasus = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_404
+            
+            modifier = {
+                political_power_gain = 0.2
+				stability_factor = -0.1
+            }
+        }
+    }
 }

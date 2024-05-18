@@ -1,0 +1,30 @@
+﻿division_template = {
+	name = "abreki"		# Army was a single infantry regiment of militia	
+
+	division_names_group = GAY_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+units = {
+	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
+	division = {
+		name = "1-ya Divisia specsluzhb"
+		location = 1599
+		division_template = "abreki"		
+		start_equipment_factor = 1
+
+        }
+	division = {
+		name = "2-ya Divisia specsluzhb"
+		location = 9628
+		division_template = "abreki"		
+		start_equipment_factor = 1
+
+	}        
+		
+}
