@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = GAY_Focus_neweracaucasus
-		icon = GFX_goal_generic_wolf_pack
+		icon = GFX_focus_GAY_Caucaus
 		cost = 7
 		x = 25
 		y = 0
@@ -800,7 +800,6 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_prison_of_kipap
 			focus = GAY_Focus_execution_of_kipap
-			focus = GAY_Focus_total_war
 		}
 		prerequisite = {
 			focus = GAY_Focus_repress_everyone_who_was_with_stalker
