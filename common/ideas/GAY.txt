@@ -66,5 +66,19 @@ ideas = {
 				stability_factor = -0.1
             }
         }
+	    building_commision = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_404
+            
+            modifier = {
+                production_speed_buildings_factor = 0.35
+            }
+        }
     }
 }
