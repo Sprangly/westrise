@@ -19,3 +19,11 @@ DNR = {
 	color = rgb { 106 62 194 }
 	color_ui = rgb { 53 30 99 }
 }
+PLT = {
+	color = rgb { 60 107 43 }
+	color_ui = rgb { 32 56 24 }
+}
+FSB = {
+	color = rgb { 158 158 158 }
+	color_ui = rgb { 110 110 110 }
+}

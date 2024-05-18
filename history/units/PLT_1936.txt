@@ -1,0 +1,47 @@
+division_template = {
+	name = "Defence army of Poltava"		# Army was a single infantry regiment of militia	
+
+	division_names_group = DNR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+}
+
+units = {
+	##### Defence army of Poltava #####
+	division = {
+		name = "1ya divisia armii poltavi"
+		location = 9413
+		division_template = "Defence army of Poltava"		
+		start_equipment_factor = 0.9
+
+        }
+	division = {
+		name = "2ya divisia armii poltavi"
+		location = 11504
+		division_template = "Defence army of Poltava"		
+		start_equipment_factor = 1
+	}        
+	division = {
+		name = "3ya divisia armii poltavi"
+		location = 11504
+		division_template = "Defence army of Poltava"		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4ya divisia armii poltavi"
+		location = 6578
+		division_template = "Defence army of Poltava"		
+		start_equipment_factor = 1
+	}	
+}
