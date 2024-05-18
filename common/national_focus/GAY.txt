@@ -314,6 +314,7 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = GAY_Program_of_Djagabiev }
 		completion_reward = {
+			add_ideas=Full_economic_chaos_programm_of_Kots
 		}
 	}
 	focus = {
@@ -442,6 +443,368 @@ focus_tree = {
 				idea = Economy_is_recovering
 				days = 70
 			}
+		}
+	}
+	focus = {
+		id = GAY_build_new_factories
+		icon = GFX_goal_404
+		cost = 70
+		x = 47
+		y = 8
+		prerequisite = {
+			focus = GAY_Program_of_Kots
+		}
+		completion_reward = {
+			828 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_ideas=Full_economic_chaos_builded_factories
+		}
+	}
+	focus = {
+		id = GAY_add_slots
+		icon = GFX_goal_404
+		cost = 70
+		x = 47
+		y = 9
+		prerequisite = {
+			focus = GAY_build_new_factories
+		}
+		prerequisite = {
+			focus = GAY_Departament_of_vhute
+		}
+		completion_reward = {
+			232 = {
+				add_extra_state_shared_building_slots = 3
+			}
+			828 = {
+				add_extra_state_shared_building_slots = 3
+			}
+			981 = {
+				add_extra_state_shared_building_slots = 3
+			}
+			add_ideas=Full_economic_chaos_added_slots
+		}
+	}
+	focus = {
+		id = GAY_improve_rights_of_workers
+		icon = GFX_goal_404
+		cost = 70
+		x = 47
+		y = 10
+		prerequisite = {
+			focus = GAY_add_slots
+		}
+		completion_reward = {
+			add_ideas=Full_economic_chaos_improved_rights_of_workers
+		}
+	}
+	focus = {
+		id = GAY_iskorenit_corruption
+		icon = GFX_goal_404
+		cost = 70
+		x = 47
+		y = 11
+		prerequisite = {
+			focus = GAY_improve_rights_of_workers
+		}
+		prerequisite = {
+			focus = GAY_add_nalogi
+		}
+		completion_reward = {
+			add_ideas=Full_economic_chaos_killed_corruption
+		}
+	}
+	focus = {
+		id = GAY_complete_program_of_Kots
+		icon = GFX_goal_404
+		cost = 70
+		x = 47
+		y = 12
+		prerequisite = {
+			focus = GAY_iskorenit_corruption
+		}
+		completion_reward = {
+			custom_effect_tooltip = GAY_remove_debuffs2_tooltip
+			hidden_effect = {
+				remove_ideas = Full_economic_chaos_killed_corruption
+			}
+			add_timed_idea = {
+				idea = Economy_is_recovering
+				days = 120
+			}
+		}
+	}
+	focus = {
+		id = GAY_Focus_final_decision_of_communism
+		icon = GFX_goal_404
+		cost = 35
+		x = 27
+		y = 4
+		prerequisite = {
+			focus = GAY_Focus_solve_problems
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_abhazian_maoizm
+		icon = GFX_goal_404
+		cost = 35
+		x = 31
+		y = 5
+		prerequisite = {
+			focus = GAY_Focus_final_decision_of_communism
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_osetin_stalinism
+		icon = GFX_goal_404
+		cost = 35
+		x = 35
+		y = 5
+		prerequisite = {
+			focus = GAY_Focus_final_decision_of_communism
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_comendant_hour
+		icon = GFX_goal_404
+		cost = 35
+		x = 29
+		y = 6
+		prerequisite = {
+			focus = GAY_Focus_abhazian_maoizm
+		}
+		mutually_exclusive = { focus = GAY_Focus_war_campaing_against_communism }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_shell_maoists
+		icon = GFX_goal_404
+		cost = 35
+		x = 29
+		y = 7
+		prerequisite = {
+			focus = GAY_Focus_comendant_hour
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_rebel_of_kipap
+		icon = GFX_goal_404
+		cost = 35
+		x = 28
+		y = 8
+		prerequisite = {
+			focus = GAY_Focus_shell_maoists
+		}
+		mutually_exclusive = { focus = GAY_Focus_neutralize_kipap }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_dekipapization
+		icon = GFX_goal_404
+		cost = 35
+		x = 28
+		y = 9
+		prerequisite = {
+			focus = GAY_Focus_rebel_of_kipap
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_total_war
+		icon = GFX_goal_404
+		cost = 35
+		x = 30
+		y = 9
+		prerequisite = {
+			focus = GAY_Focus_rebel_of_kipap
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_public_execution
+		icon = GFX_goal_404
+		cost = 35
+		x = 28
+		y = 10
+		prerequisite = {
+			focus = GAY_Focus_dekipapization
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_solve_kipap
+		icon = GFX_goal_404
+		cost = 35
+		x = 28
+		y = 11
+		prerequisite = {
+			focus = GAY_Focus_public_execution
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_prison_of_kipap
+		icon = GFX_goal_404
+		cost = 35
+		x = 28
+		y = 12
+		prerequisite = {
+			focus = GAY_Focus_solve_kipap
+		}
+		mutually_exclusive = { focus = GAY_Focus_execution_of_kipap }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_execution_of_kipap
+		icon = GFX_goal_404
+		cost = 35
+		x = 30
+		y = 12
+		prerequisite = {
+			focus = GAY_Focus_solve_kipap
+		}
+		mutually_exclusive = { focus = GAY_Focus_prison_of_kipap }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_neutralize_kipap
+		icon = GFX_goal_404
+		cost = 35
+		x = 30
+		y = 8
+		prerequisite = {
+			focus = GAY_Focus_shell_maoists
+		}
+		mutually_exclusive = { focus = GAY_Focus_rebel_of_kipap }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_war_campaing_against_communism
+		icon = GFX_goal_404
+		cost = 35
+		x = 33
+		y = 6
+		prerequisite = {
+			focus = GAY_Focus_abhazian_maoizm
+		}
+		prerequisite = {
+			focus = GAY_Focus_osetin_stalinism
+		}
+		mutually_exclusive = { focus = GAY_Focus_comendant_hour }
+		mutually_exclusive = { focus = GAY_Focus_kill_stalinists_in_caves }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_kill_stalinists_in_caves
+		icon = GFX_goal_404
+		cost = 35
+		x = 35
+		y = 6
+		prerequisite = {
+			focus = GAY_Focus_abhazian_maoizm
+		}
+		prerequisite = {
+			focus = GAY_Focus_osetin_stalinism
+		}
+		mutually_exclusive = { focus = GAY_Focus_war_campaing_against_communism }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_obvalit_enters_and_exits
+		icon = GFX_goal_404
+		cost = 35
+		x = 35
+		y = 7
+		prerequisite = {
+			focus = GAY_Focus_kill_stalinists_in_caves
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_repress_everyone_who_was_with_stalker
+		icon = GFX_goal_404
+		cost = 35
+		x = 35
+		y = 8
+		prerequisite = {
+			focus = GAY_Focus_obvalit_enters_and_exits
+			focus = GAY_Focus_war_campaing_against_communism
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_amnist_communists
+		icon = GFX_goal_404
+		cost = 35
+		x = 37
+		y = 6
+		prerequisite = {
+			focus = GAY_Focus_osetin_stalinism
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_pobeda_on_communism
+		icon = GFX_goal_404
+		cost = 35
+		x = 32
+		y = 14
+		prerequisite = {
+			focus = GAY_Focus_prison_of_kipap
+			focus = GAY_Focus_execution_of_kipap
+			focus = GAY_Focus_total_war
+		}
+		prerequisite = {
+			focus = GAY_Focus_repress_everyone_who_was_with_stalker
+		}
+		completion_reward = {
+			
 		}
 	}
 }

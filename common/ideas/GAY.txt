@@ -172,4 +172,90 @@ ideas = {
             }
         }
     }
+	country = {
+        Full_economic_chaos_programm_of_Kots = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_404
+            
+            modifier = {
+                political_power_factor = -0.45
+                production_factory_efficiency_gain_factor = -0.45
+				production_factory_max_efficiency_factor = -0.45
+				production_speed_buildings_factor = -0.25
+            }
+        }
+        Full_economic_chaos_builded_factories = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_404
+            
+            modifier = {
+                political_power_factor = -0.4
+                production_factory_efficiency_gain_factor = -0.4
+				production_factory_max_efficiency_factor = -0.4
+				production_speed_buildings_factor = -0.2
+            }
+        }
+		Full_economic_chaos_added_slots = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_404
+            
+            modifier = {
+                political_power_factor = -0.35
+                production_factory_efficiency_gain_factor = -0.35
+				production_factory_max_efficiency_factor = -0.35
+				production_speed_buildings_factor = -0.2
+            }
+        }
+		Full_economic_chaos_improved_rights_of_workers = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_404
+            
+            modifier = {
+                political_power_factor = -0.25
+                production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.1
+            }
+        }
+		Full_economic_chaos_killed_corruption = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_404
+            
+            modifier = {
+                political_power_factor = -0.15
+                production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+            }
+        }
+    }
 }
