@@ -20,7 +20,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAY_Focus_add_represii
-		icon = GFX_goal_404
+		icon = GFX_focus_GAY_Repressia
 		cost = 7
 		x = 26
 		y = 1
@@ -37,7 +37,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAY_Focus_expand_specsluzhbi
-		icon = GFX_goal_404
+		icon = GFX_focus_GAY_SS
 		cost = 7
 		x = 24
 		y = 1
