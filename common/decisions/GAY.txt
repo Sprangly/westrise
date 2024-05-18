@@ -10,7 +10,7 @@ GAY_rebel_category = {
 		activation = {
 			GAY = { has_completed_focus = GAY_Focus_make_constitution}
 		}
-	    days_mission_timeout = 140
+	    days_mission_timeout = 56
 		timeout_effect = {
             add_ideas=GAY_idea_pizdec
 	    }
