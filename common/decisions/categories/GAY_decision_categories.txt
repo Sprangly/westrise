@@ -1,0 +1,9 @@
+GAY_rebel_category = {
+ allowed = {
+ tag = GAY
+ }
+ priority = 90
+ picture = GAY_decision_category_404
+ icon = GAY_decision_category_404
+ visible_when_empty = yes
+}

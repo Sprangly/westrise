@@ -1,0 +1,19 @@
+GAY_rebel_category = {
+    GAY_razval_coalition = {
+		priority = 10
+		icon = GFX_decision_404
+		allowed = {
+			tag = GAY
+		}
+        fire_only_once = yes
+		available = { GAY = { has_completed_focus = GAY_Focus_make_width_frontline} }
+		activation = {
+			GAY = { has_completed_focus = GAY_Focus_make_constitution}
+		}
+	    days_mission_timeout = 140
+		timeout_effect = {
+            add_ideas=GAY_idea_pizdec
+	    }
+		is_good=yes
+    }
+}

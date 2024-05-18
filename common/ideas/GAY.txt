@@ -34,6 +34,23 @@ ideas = {
 				communism_drift=0.02
             }
         }
+		GAY_idea_pizdec = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_Loyalty_to_wise_leader
+            
+            modifier = {
+                stability_factor = -0.4
+				army_attack_factor = -0.2
+				army_defence_factor = -0.15
+				army_speed_factor = -0.2
+            }
+        }
     }
     country = {
         Let's_stage_a_Jihad! = {
