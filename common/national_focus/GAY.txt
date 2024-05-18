@@ -327,6 +327,8 @@ focus_tree = {
 			focus = GAY_Program_of_Djagabiev
 		}
 		completion_reward = {
+			add_stability=0.1
+			add_war_support=0.05
 		}
 	}
 	focus = {
@@ -339,6 +341,9 @@ focus_tree = {
 			focus = GAY_Departament_of_vhute
 		}
 		completion_reward = {
+			add_stability=-0.03
+			add_war_support=-0.02
+			add_ideas=high_nalogies
 		}
 	}
 	focus = {

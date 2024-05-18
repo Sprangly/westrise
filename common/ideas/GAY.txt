@@ -126,6 +126,22 @@ ideas = {
         }
     }
 	country = {
+        High_nalogies = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_404
+            
+            modifier = {
+                consumer_goods_factor = -0.1
+            }
+        }
+    }
+	country = {
         Constitution_of_Caucasus = {
 
             removal_cost = -1
