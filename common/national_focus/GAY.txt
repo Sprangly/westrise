@@ -434,10 +434,14 @@ focus_tree = {
 			focus = GAY_make_gos_pravsouzi
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = Full_economic_chaos_gos_pravsouzi
-				add_idea = Economy_is_recovering
+			custom_effect_tooltip = GAY_remove_debuffs_tooltip
+			hidden_effect = {
+				remove_ideas = Full_economic_chaos_gos_pravsouzi
+			}
+			add_timed_idea = {
+				idea = Economy_is_recovering
+				days = 70
 			}
 		}
 	}
-}	
+}
