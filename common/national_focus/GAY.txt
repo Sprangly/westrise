@@ -270,4 +270,169 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = GAY_Solve_economic
+		icon = GFX_goal_404
+		cost = 35
+		x = 45
+		y = 6
+		prerequisite = {
+			focus = GAY_Focus_make_bulding_comission
+		}
+		prerequisite = {
+			focus = GAY_Focus_modernize_vpk
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = GAY_Program_of_Djagabiev
+		icon = GFX_goal_404
+		cost = 35
+		x = 43
+		y = 7
+		prerequisite = {
+			focus = GAY_Solve_economic
+		}
+		mutually_exclusive = { focus = GAY_Program_of_Kots }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Full_economic_chaos
+				add_idea = Full_economic_chaos_Program_of_Djagibaev
+			}
+		}
+	}
+	focus = {
+		id = GAY_Program_of_Kots
+		icon = GFX_goal_404
+		cost = 35
+		x = 47
+		y = 7
+		prerequisite = {
+			focus = GAY_Solve_economic
+		}
+		mutually_exclusive = { focus = GAY_Program_of_Djagabiev }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GAY_Departament_of_vhute
+		icon = GFX_goal_404
+		cost = 35
+		x = 45
+		y = 8
+		prerequisite = {
+			focus = GAY_Program_of_Kots 
+			focus = GAY_Program_of_Djagabiev
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GAY_add_nalogi
+		icon = GFX_goal_404
+		cost = 35
+		x = 45
+		y = 10
+		prerequisite = {
+			focus = GAY_Departament_of_vhute
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GAY_add_arms_factories
+		icon = GFX_goal_404
+		cost = 35
+		x = 41
+		y = 8
+		prerequisite = {
+			focus = GAY_Program_of_Djagabiev
+		}
+		completion_reward = {
+			828 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAY_nationalise_oil
+		icon = GFX_goal_404
+		cost = 35
+		x = 39
+		y = 9
+		prerequisite = {
+			focus = GAY_add_arms_factories
+		}
+		completion_reward = {
+			add_ideas = limited_exports
+		}
+	}
+	focus = {
+		id = GAY_sponse_dagestan_factory
+		icon = GFX_goal_404
+		cost = 35
+		x = 43
+		y = 9
+		prerequisite = {
+			focus = GAY_Departament_of_vhute
+		}
+		prerequisite = {
+			focus = GAY_add_arms_factories
+		}
+		completion_reward = {
+			232 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAY_make_gos_pravsouzi
+		icon = GFX_goal_404
+		cost = 35
+		x = 41
+		y = 11
+		prerequisite = {
+			focus = GAY_sponse_dagestan_factory
+		}
+		prerequisite = {
+			focus = GAY_nationalise_oil
+		}
+		prerequisite = {
+			focus = GAY_add_nalogi
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Full_economic_chaos_Program_of_Djagibaev
+				add_idea = Full_economic_chaos_gos_pravsouzi
+			}
+		}
+	}
+	focus = {
+		id = GAY_complete_program_of_Djagabiev
+		icon = GFX_goal_404
+		cost = 35
+		x = 41
+		y = 12
+		prerequisite = {
+			focus = GAY_make_gos_pravsouzi
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Full_economic_chaos_gos_pravsouzi
+				add_idea = Economy_is_recovering
+			}
+		}
+	}
 }	

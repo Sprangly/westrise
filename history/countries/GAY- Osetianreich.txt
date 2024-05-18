@@ -38,6 +38,7 @@ add_ideas = {
 	sisu
 	Kermenists
 	partial_economic_mobilisation
+	Full_economic_chaos
 }
 
 recruit_character = GAY_alan_alanov
