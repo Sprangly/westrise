@@ -1,0 +1,23 @@
+
+state={
+	id=990
+	name="STATE_990" # Chelyaba
+	manpower = 256871
+	
+	state_category = rural
+
+	history={
+		owner = VEP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = VEP
+	}
+
+	provinces={
+		1406 7373
+	}
+
+	local_supplies=10.0 
+}

@@ -6,9 +6,9 @@ ideas = {
 			picture = GFX_idea_VEP_no_weapons_nation
 
 			modifier = {
-				army_attack_factor = -0.5
-				army_defence_factor = -0.4
-				Army_org_factor = -0.6
+				army_attack_factor = -0.4
+				army_defence_factor = -0.55
+				Army_org_factor = -0.65
 				war_support_factor = -0.3
 				conscription_factor = -0.3
 			}
