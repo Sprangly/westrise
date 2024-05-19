@@ -565,7 +565,10 @@ focus_tree = {
 			focus = GAY_Focus_solve_problems
 		}
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
 		}
 	}
 	focus = {
@@ -578,7 +581,7 @@ focus_tree = {
 			focus = GAY_Focus_final_decision_of_communism
 		}
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -591,7 +594,7 @@ focus_tree = {
 			focus = GAY_Focus_final_decision_of_communism
 		}
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -605,7 +608,7 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = GAY_Focus_war_campaing_against_communism }
 		completion_reward = {
-			
+			add_stability=-0.05
 		}
 	}
 	focus = {
@@ -618,7 +621,10 @@ focus_tree = {
 			focus = GAY_Focus_comendant_hour
 		}
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
 		}
 	}
 	focus = {
@@ -632,7 +638,18 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = GAY_Focus_neutralize_kipap }
 		completion_reward = {
-			
+			826 = {
+				transfer_state_to = KIP
+				add_core_of = KIP
+			}
+			KIP = {
+				load_oob=KIP_1936
+				declare_war_on = {
+					target = GAY
+					type = annex_everything
+				}
+			}
+			add_war_support=0.1
 		}
 	}
 	focus = {
@@ -645,7 +662,7 @@ focus_tree = {
 			focus = GAY_Focus_rebel_of_kipap
 		}
 		completion_reward = {
-			
+			add_ideas=GAY_Idea_dekipapization
 		}
 	}
 	focus = {
@@ -658,7 +675,8 @@ focus_tree = {
 			focus = GAY_Focus_rebel_of_kipap
 		}
 		completion_reward = {
-			
+			add_ideas=war_economy
+			add_war_support=0.1
 		}
 	}
 	focus = {
@@ -671,7 +689,10 @@ focus_tree = {
 			focus = GAY_Focus_dekipapization
 		}
 		completion_reward = {
-			
+			KIP = {
+				add_stability=-0.2
+				add_war_support=-0.3
+			}
 		}
 	}
 	focus = {
@@ -680,11 +701,14 @@ focus_tree = {
 		cost = 35
 		x = 28
 		y = 11
+		available = {
+			KIP = {exists=no}
+		}
 		prerequisite = {
 			focus = GAY_Focus_public_execution
 		}
 		completion_reward = {
-			
+			remove_ideas=GAY_Idea_dekipapization
 		}
 	}
 	focus = {
@@ -698,7 +722,7 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = GAY_Focus_execution_of_kipap }
 		completion_reward = {
-			
+			add_stability=0.1
 		}
 	}
 	focus = {
@@ -712,7 +736,7 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = GAY_Focus_prison_of_kipap }
 		completion_reward = {
-			
+			add_war_support=0.1
 		}
 	}
 	focus = {
@@ -721,13 +745,15 @@ focus_tree = {
 		cost = 35
 		x = 30
 		y = 8
+		available = { has_war = no }
 		prerequisite = {
 			focus = GAY_Focus_shell_maoists
-			focus = GAY_Focus_war_campaing_against_communism
 		}
 		mutually_exclusive = { focus = GAY_Focus_rebel_of_kipap }
 		completion_reward = {
-			
+			add_stability = -0.2
+			add_war_support = -0.15
+			remove_ideas=Kipap
 		}
 	}
 	focus = {
@@ -745,7 +771,28 @@ focus_tree = {
 		mutually_exclusive = { focus = GAY_Focus_comendant_hour }
 		mutually_exclusive = { focus = GAY_Focus_kill_stalinists_in_caves }
 		completion_reward = {
-			
+			826 = {
+				transfer_state_to = KIP
+				add_core_of = KIP
+			}
+			989 = {
+				transfer_state_to = KER
+				add_core_of = KER
+			}
+			KIP = {
+				load_oob=KIP_1936
+				declare_war_on = {
+					target = GAY
+					type = annex_everything
+				}
+			}
+			KER = {
+				load_oob=KER_1936
+				declare_war_on = {
+					target = GAY
+					type = annex_everything
+				}
+			}
 		}
 	}
 	focus = {
@@ -762,7 +809,7 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = GAY_Focus_war_campaing_against_communism }
 		completion_reward = {
-			
+			add_political_power=50
 		}
 	}
 	focus = {
@@ -773,10 +820,9 @@ focus_tree = {
 		y = 7
 		prerequisite = {
 			focus = GAY_Focus_kill_stalinists_in_caves
-			focus = GAY_Focus_war_campaing_against_communism
 		}
 		completion_reward = {
-			
+			remove_ideas=Kermenists
 		}
 	}
 	focus = {
@@ -789,7 +835,7 @@ focus_tree = {
 			focus = GAY_Focus_obvalit_enters_and_exits
 		}
 		completion_reward = {
-			
+			add_ideas=Repressed_Kermenists
 		}
 	}
 	focus = {
@@ -802,7 +848,10 @@ focus_tree = {
 			focus = GAY_Focus_osetin_stalinism
 		}
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
 		}
 	}
 	focus = {
@@ -811,16 +860,31 @@ focus_tree = {
 		cost = 35
 		x = 32
 		y = 14
+		available = {
+			OR = {
+				AND = {
+					OR = {
+						has_completed_focus = GAY_Focus_prison_of_kipap
+						has_completed_focus = GAY_Focus_execution_of_kipap
+						has_completed_focus = GAY_Focus_neutralize_kipap
+					}
+					has_completed_focus = GAY_Focus_repress_everyone_who_was_with_stalker
+				}
+				has_completed_focus = GAY_Focus_war_campaing_against_communism
+			}
+			KIP = { exists = no }
+			KER = { exists = no }
+		}
 		prerequisite = {
 			focus = GAY_Focus_prison_of_kipap
 			focus = GAY_Focus_execution_of_kipap
 			focus = GAY_Focus_neutralize_kipap
-		}
-		prerequisite = {
 			focus = GAY_Focus_repress_everyone_who_was_with_stalker
+			focus = GAY_Focus_war_campaing_against_communism
 		}
 		completion_reward = {
-			
+			remove_ideas = Kipap
+			remove_ideas = Kermenists
 		}
 	}
 	focus = {

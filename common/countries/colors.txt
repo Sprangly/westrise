@@ -27,3 +27,11 @@ FSB = {
 	color = rgb { 158 158 158 }
 	color_ui = rgb { 110 110 110 }
 }
+KER = {
+	color = rgb { 158 55 47 }
+	color_ui = rgb { 107 36 30 }
+}
+KIP = {
+	color = rgb { 168 84 77 }
+	color_ui = rgb { 99 50 46 }
+}

@@ -34,6 +34,54 @@ ideas = {
 				communism_drift=0.02
             }
         }
+		Kipap = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_Loyalty_to_wise_leader
+            
+            modifier = {
+				communism_drift=0.02
+				stability_factor=-0.07
+				war_support_factor=-0.04
+            }
+        }
+		Repressed_Kermenists = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_Loyalty_to_wise_leader
+            
+            modifier = {
+				stability_factor=-0.06
+				fascism_drift=0.02
+            }
+        }
+		GAY_Idea_dekipapization = {
+			
+			removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = GFX_idea_Loyalty_to_wise_leader
+            
+            modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.05
+				army_speed_factor = 0.05
+            }
+			
+		}
 		GAY_idea_pizdec = {
 
             removal_cost = -1

@@ -37,6 +37,7 @@ set_popularities = {
 add_ideas = {
 	sisu
 	Kermenists
+	Kipap
 	partial_economic_mobilisation
 	Full_economic_chaos
 }

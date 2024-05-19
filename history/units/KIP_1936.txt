@@ -1,0 +1,114 @@
+division_template = { 						
+	name = "kipap"				# Represents Fallschirm-jaeger Rgts 1 and 2
+	division_names_group = GAY_PAR_01
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+        }
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+	}        
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+        }
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+	}        
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+        }
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+	}        
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+        }
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11617
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+	}
+}
