@@ -22,7 +22,10 @@ AUC_war_category = {
 			load_oob=AUC_Chelyaba
 			add_timed_idea = {
 				idea=AUC_operation_chelyaba
-				days = 150
+				days = 250
+			}
+			990 = {
+				transfer_state_to = AUC
 			}
 	    }
     }
