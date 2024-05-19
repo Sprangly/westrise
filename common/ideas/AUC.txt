@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		AUC_operation_chelyaba = {
+			removal_cost = -1
+			picture = GFX_idea_404
+				modifier = {
+					out_of_supply_factor = -1
+				}
+		}
+	}
+}

@@ -885,6 +885,7 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = Kipap
 			remove_ideas = Kermenists
+			remove_ideas = Repressed_Kermenists
 		}
 	}
 	focus = {

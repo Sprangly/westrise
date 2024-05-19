@@ -19,6 +19,11 @@ AUC_war_category = {
                 target = VEP
                 type = annex_everything
             }
+			load_oob=AUC_Chelyaba
+			add_timed_idea = {
+				idea=AUC_operation_chelyaba
+				days = 150
+			}
 	    }
     }
 }
