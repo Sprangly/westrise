@@ -667,7 +667,6 @@ focus_tree = {
 		y = 11
 		prerequisite = {
 			focus = GAY_Focus_public_execution
-			focus = GAY_Focus_neutralize_kipap
 		}
 		completion_reward = {
 			
@@ -720,7 +719,7 @@ focus_tree = {
 		id = GAY_Focus_war_campaing_against_communism
 		icon = GFX_goal_404
 		cost = 35
-		x = 33
+		x = 32
 		y = 6
 		prerequisite = {
 			focus = GAY_Focus_abhazian_maoizm
@@ -759,6 +758,7 @@ focus_tree = {
 		y = 7
 		prerequisite = {
 			focus = GAY_Focus_kill_stalinists_in_caves
+			focus = GAY_Focus_war_campaing_against_communism
 		}
 		completion_reward = {
 			
@@ -772,7 +772,6 @@ focus_tree = {
 		y = 8
 		prerequisite = {
 			focus = GAY_Focus_obvalit_enters_and_exits
-			focus = GAY_Focus_war_campaing_against_communism
 		}
 		completion_reward = {
 			
@@ -800,6 +799,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_prison_of_kipap
 			focus = GAY_Focus_execution_of_kipap
+			focus = GAY_Focus_neutralize_kipap
 		}
 		prerequisite = {
 			focus = GAY_Focus_repress_everyone_who_was_with_stalker
