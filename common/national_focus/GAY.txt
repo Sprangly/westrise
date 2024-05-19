@@ -314,7 +314,10 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = GAY_Program_of_Djagabiev }
 		completion_reward = {
-			add_ideas=Full_economic_chaos_programm_of_Kots
+			swap_ideas = {
+				remove_idea=Full_economic_chaos
+				add_idea=Full_economic_chaos_programm_of_Kots
+			}
 		}
 	}
 	focus = {
@@ -463,7 +466,10 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_ideas=Full_economic_chaos_builded_factories
+			swap_ideas = {
+				remove_idea=Full_economic_chaos_programm_of_Kots
+				add_idea=Full_economic_chaos_builded_factories
+			}
 		}
 	}
 	focus = {
@@ -488,7 +494,10 @@ focus_tree = {
 			981 = {
 				add_extra_state_shared_building_slots = 3
 			}
-			add_ideas=Full_economic_chaos_added_slots
+			swap_ideas = {
+				remove_idea=Full_economic_chaos_builded_factories
+				add_idea=Full_economic_chaos_added_slots
+			}
 		}
 	}
 	focus = {
@@ -501,7 +510,10 @@ focus_tree = {
 			focus = GAY_add_slots
 		}
 		completion_reward = {
-			add_ideas=Full_economic_chaos_improved_rights_of_workers
+			swap_ideas = {
+				remove_idea=Full_economic_chaos_added_slots
+				add_idea=Full_economic_chaos_improved_rights_of_workers
+			}
 		}
 	}
 	focus = {
@@ -517,7 +529,10 @@ focus_tree = {
 			focus = GAY_add_nalogi
 		}
 		completion_reward = {
-			add_ideas=Full_economic_chaos_killed_corruption
+			swap_ideas = {
+				remove_idea=Full_economic_chaos_improved_rights_of_workers
+				add_idea=Full_economic_chaos_killed_corruption
+			}
 		}
 	}
 	focus = {
