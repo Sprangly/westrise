@@ -741,7 +741,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAY_Focus_neutralize_kipap
-		icon = GFX_goal_404
+		icon = GFX_focus_GAY_Kipapa_Artoi
 		cost = 35
 		x = 30
 		y = 8
