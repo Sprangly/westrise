@@ -914,4 +914,44 @@ focus_tree = {
 			
 		}
 	}
+   	focus = {
+		id = GAY_Deal_With_Kuomintang
+		icon = GFX_goal_404
+		cost = 10
+		x = 25
+		y = 6
+		prerequisite = {
+			focus = GAY_Focus_negotitations_with_right
+		}
+		completion_reward = {
+			
+		}
+	}
+   	focus = {
+		id = GAY_Accept_Ustas_Proposition
+		icon = GFX_goal_404
+		cost = 10
+		x = 26
+		y = 7
+		prerequisite = {
+			focus = GAY_Deal_With_Kuomintang
+		}
+		mutually_exclusive = { focus = GAY_Deny_The_Proposition }
+		completion_reward = {
+			
+		}
+	}
+   	focus = {
+		id = GAY_Deny_The_Proposition
+		icon = GFX_goal_404
+		cost = 10
+		x = 24
+		y = 7
+		prerequisite = {
+			focus = GAY_Deal_With_Kuomintang
+		}
+		completion_reward = {
+			
+		}
+	}
 }
