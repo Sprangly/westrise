@@ -92,7 +92,17 @@ focus_tree = {
 		x = 7
 		y = 3
 		completion_reward = {
-
+        	if = {
+			limit = {
+			has_any_power_balance = no
+				}
+			set_power_balance = {
+				id = AUC_power_balance
+				left_side = AUC_Ebat_Osla_side # will keep the last set side if not specified
+				right_side = AUC_Adekvatni_side # will keep the last set side if not specified
+				#set_default = yes # whether or not to reset the power balance to the initial value, default = no
+				}
+			}
 		}
 	}
 	focus = {
