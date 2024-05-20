@@ -137,3 +137,14 @@ AUC = {
 		}
 	}
 }
+GAY = {
+	male = {
+		names = { 
+			Afako Magomed Askhab Dzambolat Soslan Lade Abdulla Uruskhan Batradz Batyrbek
+		}
+		surnames = { 
+		    Tabolaty Ambalty Salamty MAgomedty Ibragimty Sedakaty Biragaty Reuazty Butayty Abacyty
+		}
+	}
+	callsigns = { Sargas Birag Dombay Afsaddon Konah Habatyr Haston Uazdan }
+}

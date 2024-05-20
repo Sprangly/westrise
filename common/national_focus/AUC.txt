@@ -1,0 +1,114 @@
+focus_tree = {
+	id = AUC
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUC
+		}
+	}
+	default = no
+	focus = {
+		id = AUC_Moblization
+		icon = GFX_focus_
+		cost = 4
+		bypass = { has_war_with=AUC }
+		x = 7
+		y = 0
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = AUC_Quality
+		prerequisite = {
+			focus = AUC_Moblization
+		}
+		mutually_exclusive = { focus = AUC_Second_Moblization }
+		icon = GFX_focus_VEP_MO
+		cost = 4
+		bypass = { has_war_with=VEP }
+		x = 5
+		y = 1
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = AUC_Comand
+		prerequisite = {
+			focus = AUC_Quality
+		}
+		icon = GFX_focus_VEP_MOBIKI
+		cost = 4
+		bypass = { has_war_with=VEP }
+		x = 5
+		y = 2
+        completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = AUC_Second_Moblization
+		mutually_exclusive = { focus = AUC_Quality }
+		prerequisite = {
+			focus = AUC_Moblization
+		}
+		icon = GFX_focus_VEP_MVD
+		cost = 4
+		bypass = { has_war_with=VEP }
+		x = 9
+		y = 1
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = AUC_Radicalize_our_forces
+		prerequisite = {
+			focus = AUC_Second_Moblization
+		}
+		icon = GFX_focus_VEP_NOSHIZ
+		cost = 4
+		bypass = { has_war_with=VEP }
+		x = 9
+		y = 2
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = AUC_Evaluate_Psychik_health_of_Imkegta
+		prerequisite = {
+			focus = AUC_Comand
+			focus = AUC_Radicalize_our_forces
+		}
+		icon = GFX_focus_VEP_KOK
+		cost = 4
+		bypass = {
+			has_war_with=VEP 
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = AUC_Last_Ditch_Preparations
+		prerequisite = {
+        focus = AUC_Evaluate_Psychik_health_of_Imkegta
+		}
+		icon = GFX_focus
+		cost = 6
+		bypass = {
+			has_war_with=VEP 
+		}
+		x = 7
+		y = 4
+		completion_reward = {
+
+		}
+	}
+}

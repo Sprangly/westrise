@@ -950,6 +950,23 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Deal_With_Kuomintang
 		}
+		mutually_exclusive = { focus = GAY_Accept_Ustas_Proposition }
+		completion_reward = {
+			
+		}
+	}
+   	focus = {
+		id = GAY_Better_Call_Shtirlits
+		icon = GFX_goal_404
+		cost = 10
+		x = 26
+		y = 9
+		prerequisite = {
+			focus = GAY_Accept_Ustas_Proposition
+		}
+		prerequisite = {
+			focus = GAY_Focus_rebel_of_kipap
+		}
 		completion_reward = {
 			
 		}
