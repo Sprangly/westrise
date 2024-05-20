@@ -101,6 +101,7 @@ focus_tree = {
 				left_side = AUC_Ebat_Osla_side # will keep the last set side if not specified
 				right_side = AUC_Adekvatni_side # will keep the last set side if not specified
 				#set_default = yes # whether or not to reset the power balance to the initial value, default = no
+				set_default = yes
 				}
 			}
 		}
