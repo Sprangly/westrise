@@ -573,7 +573,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAY_Focus_abhazian_maoizm
-		icon = GFX_goal_404
+		icon = GFX_focus_GAY_Abhazia
 		cost = 35
 		x = 31
 		y = 5
