@@ -89,5 +89,40 @@ units = {
 		division_template = "Imgekta army"		
 		start_equipment_factor = 1
 	}
-		
+		division = {
+		name = "13ya Revolyutsionnaya Polk"
+		location = 12584
+		division_template = "Imgekta army"		
+		start_equipment_factor = 1
+	}	
+		division = {
+		name = "14ya Revolyutsionnaya Polk"
+		location = 12287
+		division_template = "Imgekta army"		
+		start_equipment_factor = 1
+	}	
+		division = {
+		name = "15ya Revolyutsionnaya Polk"
+		location = 12584
+		division_template = "Imgekta army"		
+		start_equipment_factor = 1
+	}	
+		division = {
+		name = "16ya Revolyutsionnaya Polk"
+		location = 12287
+		division_template = "Imgekta army"		
+		start_equipment_factor = 1
+	}	
+		division = {
+		name = "17ya Revolyutsionnaya Polk"
+		location = 12584
+		division_template = "Imgekta army"		
+		start_equipment_factor = 1
+	}	
+		division = {
+		name = "18ya Revolyutsionnaya Polk"
+		location = 12287
+		division_template = "Imgekta army"		
+		start_equipment_factor = 1
+	}	
 }
