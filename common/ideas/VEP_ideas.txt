@@ -11,6 +11,7 @@ ideas = {
 				Army_org_factor = -0.65
 				war_support_factor = -0.3
 				conscription_factor = -0.3
+				army_speed_factor = -1
 			}
 		}
 	}
