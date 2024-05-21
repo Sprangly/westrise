@@ -29,4 +29,22 @@ AUC_war_category = {
 			}
 	    }
     }
+	    AUC_Take_Magnitogorsk = {
+		priority = 10
+		icon = GFX_decision_revolt
+		allowed = {
+			tag = AUC
+		}
+        fire_only_once = yes
+		available = {
+			hidden_trigger = { always = no }
+		}
+		activation = {
+			has_war_with=VEP 
+		}
+	    days_mission_timeout = 15
+		timeout_effect = {
+            add_power_balance_value = -0.2
+	    }
+    }
 }

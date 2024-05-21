@@ -13,7 +13,6 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
-
 	Light_mental_problems = {
 		random = no
         power_balance_weekly = -0.002
