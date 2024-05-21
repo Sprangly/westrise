@@ -1,0 +1,9 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_bop_AUC_Imketa_Shwarts"
+		texturefile = "gfx/bop/Imkegta_Terminator.dds"
+	}
+	spriteType = {
+		name = "GFX_Obichniy_Imkegta"
+		texturefile = "gfx/bop/Obichniy_Imketa.dds"
+	}

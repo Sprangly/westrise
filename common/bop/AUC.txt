@@ -97,21 +97,7 @@ AUC_power_balance = {
 				war_support_factor = -0.15
 			}
 			on_activate = {
-				if = {
-					limit = {
-						NOT = { has_completed_focus = ITA_crush_opposition }
-					}
-					hidden_effect = {
-						country_event = BBA_italy_civil_war.1
-					}
-					
-					effect_tooltip = {
-						start_civil_war = {
-							ideology = neutrality
-							size = 0.5
-						}
-					}
-				}
+            
 			}
 			on_deactivate = {
 				
@@ -122,7 +108,7 @@ AUC_power_balance = {
 	### Mussolini
 	side = {
 		id = AUC_Adekvatni_side	
-		icon = GFX_bop_ITA_mussolini_side
+		icon = GFX_Obichniy_Imkegta
 
 		range = {
 			id = AUC_PTSR_range
@@ -183,25 +169,25 @@ AUC_power_balance = {
 			min = 0.9
 			max = 1
 			modifier = {
-				political_power_factor = 0.15
-				war_support_factor = 0.05
-				stability_factor = 0.05
-				experience_gain_army = -0.05
-				experience_gain_air = -0.05
-				experience_gain_navy = -0.05
+				experience_gain_army_factor = 0.2
+				war_support_factor = 0.2
+				stability_factor = 0.2
+				max_planning = 0.4
+				planning_speed = 0.8
+				conscription_factor = 0.5
 			}
 			on_activate = {
 				set_power_balance_gfx = {
-					id = ITA_power_balance
-					side = ITA_mussolini_side
-					gfx = GFX_bop_ITA_mussolini_improved_side
+					id = AUC_power_balance
+					side = AUC_Adekvatni_side	
+					gfx = GFX_bop_AUC_Imketa_Shwarts
 				}
 			}
 			on_deactivate = {
 				set_power_balance_gfx = {
-					id = ITA_power_balance
-					side = ITA_mussolini_side
-					gfx = GFX_bop_ITA_mussolini_side
+					id = AUC_power_balance
+					side = AUC_Adekvatni_side	
+					gfx = GFX_Obichniy_Imkegta
 				}
 			}
 		}

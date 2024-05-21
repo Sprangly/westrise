@@ -92,6 +92,7 @@ focus_tree = {
 		x = 7
 		y = 3
 		completion_reward = {
+			add_country_leader_trait = Light_mental_problems
         	if = {
 			limit = {
 			has_any_power_balance = no
