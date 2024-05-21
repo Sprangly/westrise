@@ -10,6 +10,9 @@ AUC_power_balance = {
 		min = -0.10
 		max = 0.10
 		modifier = {
+			max_command_power = -50
+			war_support_factor = -0.05
+			stability_factor = -0.05
 		}
 		on_activate = {
 
@@ -29,7 +32,13 @@ AUC_power_balance = {
 			min = -0.3
 			max = -0.1
 			modifier = {
-				political_advisor_cost_factor = -0.1
+				experience_gain_army_factor = -0.1
+				war_support_weekly = -0.01
+				stability_weekly = -0.01
+				max_planning = -0.1
+				planning_speed = -0.1
+				conscription_factor = -0.5
+				max_command_power = -50
 			}
 			on_activate = {
 				
@@ -44,9 +53,13 @@ AUC_power_balance = {
 			min = -0.6
 			max = -0.3
 			modifier = {
-				political_advisor_cost_factor = -0.15
-				offensive_war_stability_factor = -0.1
-				war_support_factor = -0.05
+				experience_gain_army_factor = -0.5
+				war_support_weekly = -0.04
+				stability_weekly = -0.04
+				max_planning = -0.3
+				planning_speed = -0.3
+				conscription_factor = -0.1
+				max_command_power = -50
 			}
 			on_activate = {
 				custom_effect_tooltip = ITA_bop_cap_for_colonies_impact_tt
@@ -61,26 +74,16 @@ AUC_power_balance = {
 			min = -0.9
 			max = -0.6
 			modifier = {
-				political_advisor_cost_factor = -0.2
-				offensive_war_stability_factor = -0.15
-				war_support_factor = -0.1
+				experience_gain_army_factor = -0.8
+				war_support_weekly = -0.08
+				stability_weekly = -0.08
+				max_planning = -0.7
+				planning_speed = -0.7
+				conscription_factor = -0.3
+				max_command_power = -50
 			}
 			on_activate = {
-				#Depose the Duce or whoever is in charge because the dude sucks at it
-				if = {
-					limit = {
-						NOT = {
-							has_country_leader = {
-								character = ITA_grand_council
-								ruling_only = yes
-							}
-						}
-						NOT = { has_completed_focus = ITA_crush_opposition }
-					}
-					hidden_effect = {
-						country_event = BBA_italy_council_deposes_duce.1
-					}
-				}
+			
 			}
 			on_deactivate = {
 				
@@ -92,9 +95,13 @@ AUC_power_balance = {
 			min = -1
 			max = -0.9
 			modifier = {
-				political_advisor_cost_factor = -0.25
-				offensive_war_stability_factor = -0.2
-				war_support_factor = -0.15
+				experience_gain_army_factor = -1
+				war_support_weekly = -0.1
+				stability_weekly = -0.1
+				max_planning = -1
+				planning_speed = -1
+				conscription_factor = -0.5
+				max_command_power = -50
 			}
 			on_activate = {
             	set_power_balance_gfx = {
@@ -123,9 +130,7 @@ AUC_power_balance = {
 			min = 0.1
 			max = 0.3
 			modifier = {
-				political_power_factor = 0.05
-				war_support_factor = 0.01
-				stability_factor = 0.01
+            max_command_power = -50
 			}
 			on_activate = {
 
@@ -140,9 +145,10 @@ AUC_power_balance = {
 			min = 0.3
 			max = 0.6
 			modifier = {
-				political_power_factor = 0.07
-				war_support_factor = 0.02
-				stability_factor = 0.02
+				war_support_factor = 0.05
+				stability_factor = 0.05
+				max_planning = 0.1
+				planning_speed = 0.2
 			}
 			on_activate = {
 				
@@ -157,12 +163,12 @@ AUC_power_balance = {
 			min = 0.6
 			max = 0.9
 			modifier = {
-				political_power_factor = 0.1
-				war_support_factor = 0.03
-				stability_factor = 0.03
-				experience_gain_army = -0.05
-				experience_gain_air = -0.05
-				experience_gain_navy = -0.05
+				experience_gain_army_factor = 0.1
+				war_support_factor = 0.15
+				stability_factor = 0.15
+				max_planning = 0.3
+				planning_speed = 0.6
+				conscription_factor = 0.2
 			}
 			on_activate = {
 				
