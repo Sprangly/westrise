@@ -1,0 +1,13 @@
+leader_traits = {
+	prime_minister_kokesh = { 
+		sprite = 13
+		stability_factor = 0.005
+		production_speed_industrial_complex_factor = 0.05
+
+		democratic_drift = 0.1
+	}
+	ex_gubernor = { 
+		sprite = 13
+		neutrality_drift = 0.1
+	}
+}
