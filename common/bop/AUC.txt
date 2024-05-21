@@ -22,7 +22,7 @@ AUC_power_balance = {
 	### Grand Council
 	side = {
 		id = AUC_Ebat_Osla_side	
-		icon = GFX_bop_ITA_grand_council_side
+		icon = GFX_Osel
 
 		range = {
 			id = AUC_Nemnogo_Shiza_range
@@ -97,15 +97,23 @@ AUC_power_balance = {
 				war_support_factor = -0.15
 			}
 			on_activate = {
-            
+            	set_power_balance_gfx = {
+				id = AUC_power_balance
+				side = AUC_Ebat_Osla_side		
+				gfx = GFX_EBAT_OSLA
+				}
 			}
 			on_deactivate = {
-				
+				set_power_balance_gfx = {
+				id = AUC_power_balance
+				side = AUC_Ebat_Osla_side		
+				gfx = GFX_Osel
+				}
 			}
 		}
 	}
 
-	### Mussolini
+	### Ne Shiz
 	side = {
 		id = AUC_Adekvatni_side	
 		icon = GFX_Obichniy_Imkegta
