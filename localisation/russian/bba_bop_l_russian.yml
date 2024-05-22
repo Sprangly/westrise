@@ -27,6 +27,12 @@
  ETH_mekwanint_dominant_range: "Мэкуаныннт доминируют в политике"
  ETH_mekwanint_total_control_range: "Политика под контролем мэкуаныннт"
  ETH_decentralization_anarchist: "Анархисты"
+ #АУЧ
+ AUC_Nemnogo_Shiza_range: Начинает Шизить
+ AUC_Lydskoe_range: Орёт про Людское
+ AUC_Uzshe_Osel_range: Думает про Ослов
+ AUC_Ebat_Osla_range: Ебёт осла
+ #АУЧ
  ETH_total_anarchist_range: "Политика под контролем анархистов"
  ETH_anarchist_dominant_range: "Анархисты доминируют в политике"
  ETH_anarchist_power_range: "Анархисты у власти"
