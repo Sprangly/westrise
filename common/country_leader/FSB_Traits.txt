@@ -1,0 +1,12 @@
+leader_traits = {
+	Leader_of_FSB = {
+		random = no 
+		intelligence_agency_defence = 1
+		operative_slot = 3
+		resistance_growth = -0.2
+		compliance_growth = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -15,3 +15,7 @@ leader_traits = {
 	    random = no
 		power_balance_weekly = -0.1
 	}
+	Democrasy_Enemy_Number_1 ={
+		random = no
+		democratic_acceptance = -100
+	}

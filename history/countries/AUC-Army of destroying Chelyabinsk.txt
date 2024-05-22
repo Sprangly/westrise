@@ -48,7 +48,7 @@ create_country_leader = {
 	expire = "1976.3.1"
 	ideology = fascism_ideology
 	traits = { 
-		psihopat
+		Democrasy_Enemy_Number_1
 	}
 }
 create_corps_commander = {

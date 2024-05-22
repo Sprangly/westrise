@@ -1,9 +1,7 @@
 ﻿capital = 219
-
 oob = "PLT_1936"
-
 set_research_slots = 3
-
+create_intelligence_agency = yes
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -43,6 +41,7 @@ create_country_leader = {
 	expire = "2022.3.1"
 	ideology = centrism
 	traits = { 
+		Leader_of_FSB
 	}
 }
 create_corps_commander = {
