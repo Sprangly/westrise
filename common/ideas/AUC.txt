@@ -7,16 +7,15 @@ ideas = {
 					out_of_supply_factor = -1
 					army_attack_factor = 0.4
 				    army_defence_factor = 0.4
-				    breakthrough_factor = 1
-				    attrition = -0.4
+				    breakthrough_factor = 0.35
+				    attrition = -0.3
 				    industrial_capacity_factory = 0.35
-			        pocket_penalty = -0.4
-				    army_morale_factor = 0.6
-				    army_org_factor = 0.5
-				    army_org_regain = 0.5
-				    org_loss_at_low_org_factor = -0.5
-				    terrain_penalty_reduction = 0.8
-					supply_consumption_factor = -1
+			        pocket_penalty = -0.2
+				    army_morale_factor = 0.2
+				    army_org_factor = 0.2
+				    army_org_regain = 0.1
+				    org_loss_at_low_org_factor = -0.1
+				    terrain_penalty_reduction = 0.3
 				}
 		}
 	}
@@ -24,16 +23,11 @@ ideas = {
 		AUC_Unichtozshit_BSB = {
 			removal_cost = -1
 			picture = GFX_idea_404
-			modifier = {
-				ai_focus_aggressive_factor = 1
-				}
 			targeted_modifier = {
 			    tag = VEP
 		        attack_bonus_against = 0.6
 		        defense_bonus_against = 0.6
-	            breakthrough_bonus_against = 1.2
-				army_speed_factor = 2.5
-				land_reinforce_rate = 0.3
+	            breakthrough_bonus_against = 0.3
                 }
 			}
 		}

@@ -18,4 +18,17 @@ units = {
 		start_equipment_factor = 1
 
         }
+	division = {
+		name = "4ya divisia Militii"
+		location = 4215
+		division_template = "Militia"		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5ya divisia Militii"
+		location = 12287
+		division_template = "Militia"		
+		start_equipment_factor = 1
+	}
+		
 }

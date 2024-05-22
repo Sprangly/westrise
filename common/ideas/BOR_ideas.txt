@@ -20,10 +20,10 @@ ideas = {
 					industrial_capacity_dockyard = -1
 					industrial_capacity_factory = -1
 					no_compliance_gain = 1
-					fascism_acceptance = 5000
-					communism_acceptance = 5000
-					neutrality_acceptance = 5000
-					democratic_acceptance = 5000
+					fascism_acceptance = -5000
+					communism_acceptance = -5000
+					neutrality_acceptance = -5000
+					democratic_acceptance = -5000
 				}
 		}
 	}
