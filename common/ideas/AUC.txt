@@ -5,6 +5,7 @@ ideas = {
 			picture = GFX_idea_404
 				modifier = {
 					out_of_supply_factor = -1
+					supply_consumption_factor = -1
 				}
 		}
 	}
