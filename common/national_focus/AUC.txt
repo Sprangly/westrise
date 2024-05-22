@@ -120,9 +120,7 @@ focus_tree = {
 		x = 7
 		y = 4
 		completion_reward = {
-        add_timed_idea = {
-		idea= AUC_Unichtozshit_BSB
-		days = 42 }
+
 		}
 	}
 }
