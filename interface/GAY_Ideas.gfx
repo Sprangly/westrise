@@ -1,7 +1,11 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_idea_Loyalty_to_wise_leader"
-		texturefile = "gfx/interface/ideas/idea_Loyalty_to_wise_leader.dds"
+		name = "GFX_idea_Kipap"
+		texturefile = "gfx/interface/ideas/idea_Kipap.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Sralker"
+		texturefile = "gfx/interface/ideas/idea_Sralker.dds"
 	}
 }
