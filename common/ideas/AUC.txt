@@ -9,4 +9,32 @@ ideas = {
 				}
 		}
 	}
+	country = {
+		AUC_Armiya_Kolichestvo_1 = {
+			removal_cost = -1
+			picture = AUC
+				modifier = {
+					conscription_factor = 0.1
+				}
+		}
+	}
+	country = {
+		AUC_Armiya_Kachestvo_1 = {
+			removal_cost = -1
+			picture = AUC
+				modifier = {
+					army_org_Factor = 0.05
+				}
+		}
+	}
+	country = {
+		AUC_Armiya_Kachestvo_2 = {
+			removal_cost = -1
+			picture = AUC
+				modifier = {
+					army_org_Factor = 0.05
+					training_time_army_factor = -0.1
+				}
+		}
+	}
 }

@@ -7,11 +7,11 @@ spriteTypes = {
 		name = "GFX_Obichniy_Imkegta"
 		texturefile = "gfx/bop/Obichniy_Imketa.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_Osel"
 		texturefile = "gfx/bop/Osel.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_EBAT_OSLA"
 		texturefile = "gfx/bop/EBAT_OSLA.dds"
 	}

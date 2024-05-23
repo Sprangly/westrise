@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_AUC"
+		texturefile = "gfx/interface/ideas/idea_AUC.dds"
+	}
+}

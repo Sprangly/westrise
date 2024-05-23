@@ -32,7 +32,7 @@ focus_tree = {
 		x = 5
 		y = 1
 		completion_reward = {
-			
+			add_ideas=AUC_Armiya_Kachestvo_1
 		}
 	}
 	focus = {
@@ -46,7 +46,10 @@ focus_tree = {
 		x = 5
 		y = 2
         completion_reward = {
-			
+			swap_ideas = {
+				remove_idea=AUC_Armiya_Kachestvo_1
+				add_idea=AUC_Armiya_Kachestvo_2
+			}
 		}
 	}
 	focus = {
@@ -61,9 +64,9 @@ focus_tree = {
 		x = 9
 		y = 1
 		completion_reward = {
-			
+			add_ideas=AUC_Armiya_Kolichestvo_1
 		}
-	}
+    }
 	focus = {
 		id = AUC_Radicalize_our_forces
 		prerequisite = {
