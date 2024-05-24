@@ -1,0 +1,17 @@
+spriteTypes = {
+	spriteType = {
+        name = "GFX_ideology_Kipapism"
+        texturefile = "gfx/interface/ideologies/Kipapism.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_stalkerism"
+        texturefile = "gfx/interface/ideologies/stalkerism.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_sanmin_political_tutelage"
+        texturefile = "gfx/interface/ideologies/tutelage.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_sanmin_military_rule"
+        texturefile = "gfx/interface/ideologies/tutelage.dds"
+    }
