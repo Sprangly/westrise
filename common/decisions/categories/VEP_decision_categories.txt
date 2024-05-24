@@ -1,0 +1,9 @@
+AUC_war_category = {
+ allowed = {
+ tag = AUC
+ }
+ priority = 90
+ picture = GFX_decision_category_picture
+ icon = POL_category
+ visible_when_empty = yes
+}
