@@ -91,7 +91,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Osetinian_Economy
             
             modifier = {
                 political_power_factor = -0.5

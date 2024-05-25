@@ -35,3 +35,7 @@ KIP = {
 	color = rgb { 168 84 77 }
 	color_ui = rgb { 99 50 46 }
 }
+KOK = {
+	color = rgb { 252 186 3 }
+	color_ui = rgb { 173, 127, 0 }
+}
